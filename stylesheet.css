@@ -195,7 +195,7 @@ body{
 }
 
 /* Mobile Layout */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 body{
   background-image: url(DSCF3952.png);
   background-position: top;
@@ -210,7 +210,7 @@ iframe{
 }
 .bio{
   margin: auto;
-  width: 500px;
+  width: 400px;
 }
 .projects{
   margin: auto;
@@ -232,6 +232,17 @@ iframe{
   margin: auto;
   width: 90%;
   margin-top: 10%;
+}
+.contentblock-bio{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  text-align: center;
+  margin-top: 10px;
+  width: auto;
 }
 .contentblock-projects1{
   display: block;
