@@ -93,6 +93,17 @@ body{
   margin-top: 15%;
   width: auto;
 }
+.contentblock-bio{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  text-align: center;
+  margin-top: 5%;
+  width: auto;
+}
 .contentblock-projects1{
   display: block;
   text-align: center;
