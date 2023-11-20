@@ -229,9 +229,10 @@ iframe{
   border: 2px solid;
   border-color: #f0f0f0;
   text-align: center;
-  margin: auto;
   width: 90%;
   margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .contentblock-bio{
   display: block;
