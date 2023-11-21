@@ -291,9 +291,9 @@ iframe{
   width: 250px;
   text-align: center;
   margin-top: 15px;
-  margin-right: 10px;
+  margin-right: 0px;
   margin-bottom: 15px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .content-bio{
   display: inline-block;
