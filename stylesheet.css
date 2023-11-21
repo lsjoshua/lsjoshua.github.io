@@ -200,7 +200,7 @@ body{
   background-image: url(DSCF3952.png);
   background-position: top;
   background-repeat: no-repeat fixed;
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 
 iframe{
@@ -318,8 +318,8 @@ iframe{
   max-width: 300px;  
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 25px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  margin-left: 15px;
 }
 }
