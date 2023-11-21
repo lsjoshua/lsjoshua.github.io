@@ -199,6 +199,8 @@ body{
 body{
   background-image: url(DSCF3952.png);
   background-position: top;
+  background-repeat: no-repeat fixed;
+  background-attachment: fixed;
 }
 
 iframe{
