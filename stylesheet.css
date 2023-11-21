@@ -208,22 +208,22 @@ iframe{
 }
 .index{
   margin: 10%;
-  width: 90%;
+  width: 80%;
 }
 .bio{
   position: static;
   margin: 10%;
-  width: 90%;
+  width: 80%;
 }
 .projects{
   position: static;
   margin: 10%;
-  width: 90%;
+  width: 80%;
 }
 .credits{
   position: static;
   margin: 10%;
-  width: 90%;
+  width: 80%;
 }
 .contentblock{
   display: block;
@@ -282,6 +282,8 @@ iframe{
   border-color: #f0f0f0;
   text-align: center;
   margin-top: 5%;
+  margin-left: 5px;
+  margin-right: 5px;
   width: auto;
 }
 .content{
