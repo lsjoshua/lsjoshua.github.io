@@ -206,23 +206,23 @@ iframe{
 }
 .index{
   position: static;
-  margin: auto;
-  width: 80%;
+  margin: 10%;
+  width: 100%;
 }
 .bio{
   position: static;
-  margin: auto;
-  width: 80%;
+  margin: 10%;
+  width: 100%;
 }
 .projects{
   position: static;
-  margin: auto;
-  width: 80%;
+  margin: 10%;
+  width: 100%;
 }
 .credits{
   position: static;
-  margin: auto;
-  width: 80%;
+  margin: 10%;
+  width: 100%;
 }
 .contentblock{
   display: block;
