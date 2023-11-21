@@ -195,7 +195,7 @@ body{
 }
 
 /* Mobile Layout */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 body{
   background-image: url(DSCF3952.png);
   background-position: top;
