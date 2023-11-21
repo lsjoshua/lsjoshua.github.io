@@ -207,22 +207,22 @@ iframe{
 .index{
   position: static;
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 .bio{
   position: static;
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 .projects{
   position: static;
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 .credits{
   position: static;
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 .contentblock{
   display: block;
