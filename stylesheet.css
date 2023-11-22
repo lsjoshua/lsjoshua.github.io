@@ -292,9 +292,9 @@ iframe{
   display: inline-block;
   text-align: center;
   margin-top: 15px;
-  margin-right: 0px;
+  margin-right: 10px;
   margin-bottom: 15px;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 .content-bio{
   display: inline-block;
