@@ -207,6 +207,7 @@ iframe{
   width: 100%;
 }
 .index{
+  position: static;
   margin: 10%;
   width: 80%;
 }
@@ -227,18 +228,13 @@ iframe{
 }
 .contentblock{
   display: block;
-  content-align:center;
   text-align: center;
   box-sizing: border-box;
   background-color: #141414;
   border: 2px solid;
   border-color: #f0f0f0;
-  text-align: center;
-  width: 90%;
   margin-top: 10%;
   margin-bottom: auto;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 .contentblock-bio{
   display: block;
