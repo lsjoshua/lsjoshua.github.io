@@ -8,6 +8,10 @@ html {
  font-family: "Atkinson Hyperlegible", sans-serif;
  src: url(AtkinsonHyperlegible-Regular.ttf) format('ttf');
 }
+@font-face {
+ font-family: "Atkinson Hyperlegible Bold", sans-serif;
+ src: url(AtkinsonHyperlegible-Bold.ttf) format('ttf');
+}
 
 /* Text */
 h1 {
@@ -38,6 +42,18 @@ p2 {
 }
 div {
   font-family: "Atkinson Hyperlegible", sans-serif;
+  color: #ffffff;
+}
+
+b {
+  font-weight: bold;
+  font-family: "Atkinson Hyperlegible";
+  color: #ffffff;
+}
+
+b {
+  font-style: italic;
+  font-family: "Atkinson Hyperlegible Bold";
   color: #ffffff;
 }
 
