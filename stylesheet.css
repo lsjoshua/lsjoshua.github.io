@@ -47,12 +47,6 @@ div {
 
 b {
   font-weight: bold;
-  font-family: "Atkinson Hyperlegible";
-  color: #ffffff;
-}
-
-b {
-  font-style: italic;
   font-family: "Atkinson Hyperlegible Bold";
   color: #ffffff;
 }
