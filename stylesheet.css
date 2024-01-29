@@ -6,11 +6,11 @@ html {
 /* Fonts */
 @font-face {
  font-family: "Atkinson Hyperlegible", sans-serif;
- src: url(AtkinsonHyperlegible-Regular.ttf) format('ttf');
+ src: url(./AtkinsonHyperlegible-Regular.ttf) format('ttf');
 }
 @font-face {
  font-family: "Atkinson Hyperlegible Bold", sans-serif;
- src: url(AtkinsonHyperlegible-Bold.ttf) format('ttf');
+ src: url(./AtkinsonHyperlegible-Bold.ttf) format('ttf');
 }
 
 /* Text */
