@@ -364,6 +364,18 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
+.contentblock-bloglink{
+  display: block;
+  content-align:center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  text-align: center;
+  margin-top: 10px;
+  width: auto;
+}
 .content{
   display: inline-block;
   text-align: center;
