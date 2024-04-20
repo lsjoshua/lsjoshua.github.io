@@ -268,7 +268,7 @@ body{
 /* Tablet Layout */
 @media screen and (max-width: 1023px) and (min-width: 768px){
 body{
-  background-image: url(DSCF3952.png);
+  background-image: url(bg-toyoko.jpg);
   background-position: top;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
