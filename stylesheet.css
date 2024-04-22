@@ -383,7 +383,7 @@ iframe{
 }
 .right{
   position: static;
-  max-width: 90%;
+  max-width: 100%;
   width: 300px;
   margin-top: 10px;
   margin-left: auto;
@@ -400,6 +400,15 @@ iframe{
   border-color: #f0f0f0;
 }
 .content-mobile{
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  margin-top: 0px;
+  margin-right: 2px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.other-content{
   display: inline-block;
   text-align: center;
   width: 95%;
