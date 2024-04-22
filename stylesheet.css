@@ -1,0 +1,504 @@
+html {
+  overflow-y: scroll;
+}
+
+
+/* Fonts */
+@font-face {
+ font-family: "Atkinson Hyperlegible", sans-serif;
+ src: url(./AtkinsonHyperlegible-Regular.ttf) format('ttf');
+}
+@font-face {
+ font-family: "Atkinson Hyperlegible Bold", sans-serif;
+ src: url(./AtkinsonHyperlegible-Bold.ttf) format('ttf');
+}
+
+/* Text */
+h1 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.0;
+  }
+h2 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  }
+h3 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.0;
+  }
+
+p {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  }
+p2 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center !important;
+}
+p3 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+ul{
+  text-align: left !important;
+}
+.blog-text{
+  text-align: left;
+}
+div {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  color: #ffffff;
+}
+
+/* Link text colours */
+a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  color: #d2eafc;
+}
+a:active {
+  color: #d2eafc;
+}
+
+.button{
+  background-color: #141414;
+  border: 1px solid white; d
+  padding: 5px;
+}
+
+.center{ /*Override any other text align code*/
+  text-align: center !important;
+}
+
+
+/* Background */
+body{
+  background-color: #141414;
+  background-image: url(Images/bg-toyoko.jpg);
+  background-position: top;
+  background-repeat: no-repeat fixed;
+  background-attachment: fixed;
+}
+
+/* Page layout */
+.page{
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.left{
+  position: fixed;
+  margin-top: 0px;
+  margin-right: auto;
+  width: 300px;
+}
+.right{
+  margin-top: 15px;
+  margin-left: 320px;
+  width: 500px;
+}
+.content-left{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  text-align: center;
+}
+.content-left-bio{
+  display: block;
+  width: 100%;
+  position: static;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+}
+.content-right{
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.blog{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.blog-post{
+  margin: auto;
+  width: 600px;
+}
+.contentblock-bloglink{
+  display: block;
+  content-align:center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  text-align: center;
+  margin-top: 10px;
+  width: auto;
+}
+.contentblock-blog{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  width: 92%;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentblock{ /*Used for blog posts*/
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  text-align: center;
+  margin-top: 5%;
+  width: auto;
+}
+.sidebar-content{
+  display: inline-block;
+  max-width: 450px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.main-content{
+  display: inline-block;
+  width: 500px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: left;
+}
+.other-content{
+  display: inline-block;
+  width: 500px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.content-bio{
+  display: inline-block;
+  max-width: 500px;  
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-bottom: -10px;
+  margin-left: 40px;
+}
+.content-credits{
+  display: inline-block;
+  max-width: 500px;  
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.content-column{
+  column-count: 3;
+ text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer{
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+/* Page media classes */
+.project-img{
+  float: right;
+  margin-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.blogphoto{
+  display: inline;
+  max-width:450px;
+  width: 100%;
+  text-align: center;
+}
+.project-icon{
+  vertical-align: middle;
+  transform: translate(-8%, -8%);
+}
+.profileimg{
+  width: 100%;
+  max-width: 250px;
+}
+.recentprojectimg{
+  width: 130px;
+  padding: 2px;
+}
+
+/* Misc */
+.backlink{
+  font-weight: bold;
+  color: #000000;
+}
+.homelink{
+  margin-right: 90%;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+.content-mobile{
+  display: none;
+}
+}
+
+/* Tablet Layout */
+@media screen and (max-width: 1023px) and (min-width: 768px){
+body{
+  background-image: url(Images/bg-toyoko.jpg);
+  background-position: top;
+  background-repeat: no-repeat fixed;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0;
+}
+
+iframe{
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page{
+  position: static;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.recentprojectimg{
+  width: 100%;
+  padding: 2px;
+}
+.column{
+  width: 100%;
+}
+.contentblock{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  width: 92%;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar-content{
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  margin-top: 15px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+.content-blog{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footer{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 767px) {
+body{
+  background-image: url(Images/bg-toyoko.jpg);
+  background-position: top;
+  background-repeat: no-repeat fixed;
+  background-attachment: fixed;
+  margin: 0;
+  width: 100%;
+}
+
+iframe{
+  display: block;
+  width: 95%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page{
+  column-count: 1;
+  width: 100%;
+  margin: auto;
+}
+.left{
+  position: static;
+  max-width: 90%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right{
+  position: static;
+  max-width: 90%;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-left-bio{
+  display: none;
+  width: 100%;
+  position: static;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+}
+.content-mobile{
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  margin-top: 0px;
+  margin-right: 2px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.content-right{
+  width: 100%;
+  display: inline-block;
+  position: static;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+}
+.content-right-top{
+  width: 100%;
+  display: inline-block;
+  position: static;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid;
+  border-color: #f0f0f0;
+}
+.blog{
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.recentprojectimg{
+  width: 100%;
+  padding: 2px;
+}
+.contentblock-blog{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  width: 92%;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-top: 10%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contentblock-bloglink{
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #141414;
+  width: 92%;
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar-content{
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  margin-top: 15px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+.main-content{
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  margin-top: 15px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+.content-blog{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footer{
+  display: block;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+.project-img{
+  float: none;
+}
+}
