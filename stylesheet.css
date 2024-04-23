@@ -200,6 +200,15 @@ body{
   margin-left: 25px;
   text-align: left;
 }
+.blog-content{
+  display: inline-block;
+  width: 500px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: center;
+}
 .other-content{
   display: inline-block;
   width: 500px;
@@ -232,10 +241,10 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.footer{
+footer{
   display: block;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 10px;
   width: 100%;
 }
@@ -343,7 +352,7 @@ iframe{
   margin-left: 5%;
   margin-right: 5%;
 }
-.footer{
+footer{
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -500,7 +509,7 @@ iframe{
   margin-left: 5%;
   margin-right: 5%;
 }
-.footer{
+footer{
   display: block;
   text-align: center;
   padding-top: 0px;
