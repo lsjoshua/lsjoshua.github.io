@@ -42,11 +42,15 @@ p2 {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 12px;
   color: #ffffff;
+  text-align: center !important;
 }
 p3 {
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 14px;
   color: #ffffff;
+}
+ul{
+  text-align: left !important;
 }
 div {
   font-family: "Atkinson Hyperlegible", sans-serif;
@@ -75,8 +79,8 @@ a:active {
 /* Background */
 body{
   background-color: #141414;
-  background-image: url(Images/bg-field.png);
-  background-position: top;
+  background-image: url(Images/blog3-5.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
@@ -188,7 +192,6 @@ footer{
 /* Tablet Layout */
 @media screen and (max-width: 1023px) and (min-width: 768px){
 body{
-  background-image: url(Images/bg-field.png);
   background-position: top;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
@@ -249,7 +252,6 @@ footer{
 /* Mobile Layout */
 @media screen and (max-width: 767px) {
 body{
-  background-image: url(Images/bg-field.png);
   background-position: top;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
