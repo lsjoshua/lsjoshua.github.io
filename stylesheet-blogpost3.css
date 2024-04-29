@@ -151,10 +151,10 @@ footer{
   width: 100%;
 }
 .blogphoto{
-  display: inline;
-  max-width:450px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  text-align: center;
 }
 .project-icon{
   vertical-align: middle;
@@ -280,26 +280,6 @@ iframe{
   margin-right: 2px;
   margin-bottom: 0px;
   margin-left: 10px;
-}
-.content-right{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-}
-.content-right-top{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
 }
 .blog{
   position: static;

@@ -146,10 +146,10 @@ footer{
   width: 100%;
 }
 .blogphoto{
-  display: inline;
-  max-width:450px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  text-align: center;
 }
 .project-icon{
   vertical-align: middle;
