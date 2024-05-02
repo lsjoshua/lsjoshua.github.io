@@ -45,11 +45,14 @@ p2 {
 }
 p3 {
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #ffffff;
 }
-ul{
-  text-align: left !important;
+p4 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 16px;
+  line-height: 0;
+  color: #ffffff;
 }
 div {
   font-family: "Atkinson Hyperlegible", sans-serif;
@@ -71,7 +74,7 @@ a:active {
 }
 
 .button{
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 1px solid white; d
   padding: 5px;
 }
@@ -83,7 +86,7 @@ a:active {
 
 /* Background */
 body{
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   background-image: url(Images/bg-toyoko.jpg);
   background-position: top;
   background-repeat: no-repeat fixed;
@@ -92,18 +95,27 @@ body{
 
 /* Page layout */
 .page{
-  width: 80%;
+  width: 60%;
   margin-left: 20%;
   margin-right: 20%;
+}
+.menu{
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  margin-right: auto;
+  width: 100%;
 }
 .left{
   position: fixed;
   margin-top: 0px;
+  padding-top: 80px;
   margin-right: auto;
   width: 300px;
 }
 .right{
   margin-top: 15px;
+  padding-top: 80px;
   margin-left: 320px;
   width: 500px;
 }
@@ -111,29 +123,71 @@ body{
   display: block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
   text-align: center;
+  margin-bottom: 10px;
 }
-.content-left-bio{
+.content-left-desktop{
   display: block;
-  width: 100%;
-  position: static;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .content-right{
   display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
   margin-bottom: 10px;
+}
+.twocolumn-block-left{
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(20,20,20,0.97);
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
+  width: 271px;
+  margin: auto;
+}
+.twocolumn-block-right{
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(20,20,20,0.97);
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
+  width: 271px;
+  margin-left: 25px;
+  margin-right: 0px;
+}
+.content-menu{
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(20,20,20,0.97);
+  border: 2px solid;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.menu-links{
+  display: inline-block;
+  width: 820px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: left;
 }
 .sidebar-content{
   display: inline-block;
@@ -141,6 +195,15 @@ body{
   margin-top: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
+  margin-left: 25px;
+}
+.sidebar-content-extra{
+  display: inline-block;
+  text-align: left;
+  width: 95%;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 15px;
   margin-left: 25px;
 }
 .main-content{
@@ -152,58 +215,30 @@ body{
   margin-left: 25px;
   text-align: left;
 }
-/* Blog layout */
-.blog{
-  margin-left: auto;
-  margin-right: auto;
+.bio-content{
+  display: inline-block;
   width: 500px;
+  margin-top: 5px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  text-align: left;
 }
-.blog-post{
-  margin: auto;
-  width: 600px;
-}
-.contentblock-bloglink{
-  display: block;
-  content-align:center;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-  text-align: center;
-  margin-top: 10px;
-  width: auto;
-  margin-bottom: 10px;
+.twocolumn-wrapper{
+  column-count: 2;
+  width: 100%;
+  margin: 0;
 }
 .contentblock{
   display: block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
   text-align: center;
   margin-top: 5%;
   width: auto;
-}
-.blog-content{
-  display: inline-block;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  text-align: left;
-}
-.blogheader{
-  text-align: center;
-}
-.blog-link{
-  display: inline-block;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  text-align: center;
 }
 .other-content{
   display: inline-block;
@@ -262,12 +297,19 @@ footer{
   transform: translate(-8%, -8%);
 }
 .profileimg{
-  width: 100%;
+  max-width: 250px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+.sidebarimg{
+  width: 80%;
   max-width: 250px;
 }
-.recentprojectimg{
-  width: 130px;
-  padding: 2px;
+.game-img{
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 5px;
 }
 
 /* Misc */
@@ -321,7 +363,7 @@ iframe{
   display: block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   width: 92%;
   border: 2px solid;
   border-color: #f0f0f0;
@@ -376,24 +418,45 @@ iframe{
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 65px;
 }
 .right{
   position: static;
   max-width: 100%;
   width: 300px;
   margin-top: 10px;
+  padding-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
-.content-left-bio{
-  display: none;
+.menu{
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
+  margin-right: auto;
+  padding-top: 5px;
   width: 100%;
-  position: static;
+}
+.menu-links{
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  width: 80%;
+}
+.content-menu{
+  display: inline-block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
+  margin-bottom: 10px;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .content-mobile{
   display: inline-block;
@@ -404,14 +467,11 @@ iframe{
   margin-bottom: 0px;
   margin-left: 10px;
 }
-.other-content{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 0px;
-  margin-right: 2px;
-  margin-bottom: 0px;
-  margin-left: 10px;
+.content-left-desktop{
+  display: none;
+}
+.content-left{
+  margin-top: 10px;
 }
 .content-right{
   width: 100%;
@@ -419,7 +479,7 @@ iframe{
   position: static;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
 }
@@ -429,39 +489,13 @@ iframe{
   position: static;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.97);
   border: 2px solid;
   border-color: #f0f0f0;
 }
 .recentprojectimg{
   width: 100%;
   padding: 2px;
-}
-.contentblock-blog{
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  width: 92%;
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-top: 10%;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contentblock-bloglink{
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  width: 92%;
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-top: 10px;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 .sidebar-content{
   display: inline-block;
@@ -481,6 +515,18 @@ iframe{
   margin-bottom: 15px;
   margin-left: 2px;
 }
+.bio-content{
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  margin-top: 5px;
+  margin-right: 2px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+.content-desktop{
+  display: none;
+}
 footer{
   display: block;
   text-align: center;
@@ -490,5 +536,8 @@ footer{
 }
 .project-img{
   float: none;
+}
+.twocolumn-wrapper{
+  column-count: 1;
 }
 }
