@@ -87,19 +87,6 @@ body{
   margin: auto;
   width: 600px;
 }
-.contentblock-bloglink{
-  display: block;
-  content-align:center;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-  text-align: center;
-  margin-top: 10px;
-  width: auto;
-  margin-bottom: 10px;
-}
 .contentblock{
   display: block;
   text-align: center;
@@ -122,22 +109,6 @@ body{
 .blogheader{
   text-align: center;
 }
-.blog-link{
-  display: inline-block;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  text-align: center;
-}
-.other-content{
-  display: inline-block;
-  width: 500px;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-}
 footer{
   display: block;
   text-align: center;
@@ -151,25 +122,8 @@ footer{
   margin-right: auto;
   width: 100%;
 }
-.project-icon{
-  vertical-align: middle;
-  transform: translate(-8%, -8%);
-}
-.profileimg{
-  width: 100%;
-  max-width: 250px;
-}
-.recentprojectimg{
-  width: 130px;
-  padding: 2px;
-}
 
 /* Misc */
-.exit{
-  position: relative;
-  margin-right: 85%;
-  top: 20px;
-}
 .homelink{
   margin-right: 90%;
 }
@@ -199,19 +153,6 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
-.page{
-  position: static;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.recentprojectimg{
-  width: 100%;
-  padding: 2px;
-}
-.column{
-  width: 100%;
-}
 .contentblock{
   display: block;
   text-align: center;
@@ -224,15 +165,6 @@ iframe{
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-}
-.sidebar-content{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 15px;
-  margin-right: 2px;
-  margin-bottom: 15px;
-  margin-left: 2px;
 }
 footer{
   width: 100%;
@@ -260,51 +192,9 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
-.content-mobile{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 0px;
-  margin-right: 2px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
-.other-content{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 0px;
-  margin-right: 2px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
-.content-right{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-}
-.content-right-top{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-}
 .blog{
   position: static;
   width: 90%;
-}
-.recentprojectimg{
-  width: 100%;
-  padding: 2px;
 }
 .contentblock-blog{
   display: block;
@@ -319,45 +209,11 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
-.contentblock-bloglink{
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  width: 92%;
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-top: 10px;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.sidebar-content{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 15px;
-  margin-right: 2px;
-  margin-bottom: 15px;
-  margin-left: 2px;
-}
-.main-content{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 15px;
-  margin-right: 2px;
-  margin-bottom: 15px;
-  margin-left: 2px;
-}
 footer{
   display: block;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 15px;
   width: 100%;
-}
-.project-img{
-  float: none;
 }
 }

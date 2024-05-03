@@ -161,7 +161,7 @@ body{
   margin: auto;
   width: 500px;
 }
-.contentblock-bloglink{
+.contentblock-blog-link{
   display: block;
   text-align: center;
   width: 550px;
@@ -170,25 +170,6 @@ body{
   border-color: #f0f0f0;
   text-align: center;
   margin-bottom: 10px;
-}
-.contentblock{
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  text-align: center;
-  margin-top: 5%;
-  width: 500px;
-}
-.blog-content{
-  display: inline-block;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  text-align: left;
 }
 .blogheader{
   text-align: center;
@@ -201,14 +182,6 @@ body{
   margin-bottom: 25px;
   margin-left: 25px;
   text-align: center;
-}
-.other-content{
-  display: inline-block;
-  width: 500px;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
 }
 .content-menu{
   display: inline-block;
@@ -249,15 +222,6 @@ footer{
   width: 80%;
   max-width: 250px;
 }
-/* Misc */
-.exit{
-  position: relative;
-  margin-right: 85%;
-  top: 20px;
-}
-.homelink{
-  margin-right: 90%;
-}
 
 @media screen and (min-width: 800px) {
 .content-mobile{
@@ -289,13 +253,6 @@ iframe{
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-}
-.recentprojectimg{
-  width: 100%;
-  padding: 2px;
-}
-.column{
-  width: 100%;
 }
 .contentblock{
   display: block;
@@ -349,15 +306,6 @@ iframe{
   width: 100%;
   margin: auto;
 }
-.content-mobile{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 0px;
-  margin-right: 2px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
 .left{
   position: static;
   max-width: 90%;
@@ -408,30 +356,6 @@ iframe{
 .content-left-desktop{
   display: none;
 }
-.content-right{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-}
-.content-right-top{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
-}
-.recentprojectimg{
-  width: 100%;
-  padding: 2px;
-}
 .contentblock-blog{
   display: block;
   text-align: center;
@@ -445,7 +369,7 @@ iframe{
   margin-left: auto;
   margin-right: auto;
 }
-.contentblock-bloglink{
+.contentblock-blog-link{
   display: block;
   text-align: center;
   box-sizing: border-box;
@@ -475,15 +399,6 @@ iframe{
   margin-bottom: 25px;
   margin-left: 25px;
   text-align: center;
-}
-.main-content{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 15px;
-  margin-right: 2px;
-  margin-bottom: 15px;
-  margin-left: 2px;
 }
 footer{
   display: block;
