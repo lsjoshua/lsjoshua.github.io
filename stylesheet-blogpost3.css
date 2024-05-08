@@ -58,7 +58,8 @@ a:visited {
   color: #ffffff;
 }
 a:hover {
-  color: #e6e7ff;
+  color: #ffffff;
+  text-decoration-line: none;
 }
 a:active {
   color: #e6e7ff;
