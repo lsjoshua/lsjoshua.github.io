@@ -143,6 +143,13 @@ body{
   margin-bottom: 25px;
   margin-left: 25px;
 }
+.main-content-top{
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: left;
+}
 .main-content{
   display: inline-block;
   margin-right: 25px;
