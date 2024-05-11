@@ -322,10 +322,16 @@ iframe{
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.main-content{
+.main-content-top{
   display: inline-block;
   text-align: center;
   margin-top: -25px;
+  margin-bottom: 15px;
+}
+.main-content{
+  display: inline-block;
+  text-align: center;
+  margin-top: 0px;
   margin-bottom: 15px;
 }
 .archive-content{
