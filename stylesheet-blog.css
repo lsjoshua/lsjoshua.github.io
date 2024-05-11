@@ -114,6 +114,12 @@ body{
   margin-left: 320px;
   width: 500px;
 }
+.right-archive{
+  margin-top: 15px;
+  padding-top: 80px;
+  margin-left: 320px;
+  width: 500px;
+}
 .content-left{
   display: block;
   text-align: center;
@@ -201,6 +207,11 @@ body{
   margin-bottom: 25px;
   margin-left: 25px;
   text-align: left;
+}
+.blog-header{
+  float: right;
+  display: inline;
+  margin-top: 10px;
 }
 footer{
   display: block;

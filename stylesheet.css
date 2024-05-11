@@ -4,58 +4,73 @@ html {
 
 
 /* Fonts */
-@font-face {
- font-family: "Atkinson Hyperlegible", sans-serif;
- src: url(./AtkinsonHyperlegible-Regular.ttf) format('ttf');
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
-@font-face {
- font-family: "Atkinson Hyperlegible Bold", sans-serif;
- src: url(./AtkinsonHyperlegible-Bold.ttf) format('ttf');
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
 }
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
 
 /* Text */
 h1 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 20px;
   color: #ffffff;
-  line-height: 1.0;
   }
 h2 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 16px;
   color: #ffffff;
   }
 h3 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 14px;
   color: #ffffff;
   line-height: 1.0;
   }
 
 p {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
   color: #ffffff;
   }
 p2 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 12px;
   color: #ffffff;
   text-align: center !important;
 }
 p3 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 12px;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
   color: #ffffff;
 }
 p4 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 16px;
   line-height: 0;
   color: #ffffff;
 }
 div {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   color: #ffffff;
 }
 
@@ -81,109 +96,63 @@ a:active {
 
 /* Background */
 body{
-  background-color: rgb(20,20,20,0.97);
+  background-color: #0b0b0b;
   background-image: url(Images/bg-toyoko.jpg);
   background-position: top;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
+  background-size: cover;
 }
 
-/* Page layout */
+/* Desktop page layout */
 /* Main items */
 .page{
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.menu{
-  position: fixed;
-  z-index: 1;
-  margin-top: 0px;
+  width: 70%;
+  margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 .left{
   position: fixed;
-  margin-top: 0px;
-  padding-top: 80px;
+  display: inline-block;
+  background-color: rgb(11, 11, 11,0.97);
+  margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 20%;
+  top: 0;
 }
 .right{
-  margin-top: 15px;
-  padding-top: 80px;
-  margin-left: 320px;
-  width: 500px;
-}
-.content-left{
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.content-left-desktop{
-  display: block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.content-right{
+  position: absolute;
   display: inline-block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-bottom: 10px;
+  width: 50%;
+  margin-left: 20%;
+  background-color: rgb(11, 11, 11,0.97);
+  top: 0;
 }
+@media screen and (min-width: 1024px) {
+.content-mobile{
+  display: none;
+}
+}
+
 /* Text blocks */
-.content-menu{
-  display: inline-block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-bottom: 10px;
-}
-.menu-links{
-  display: inline-block;
-  width: 820px;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  text-align: left;
-}
 .sidebar-content{
   display: inline-block;
-  max-width: 450px;
+  text-align: left;
   margin-top: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
-  margin-left: 25px;
-}
-.sidebar-content-extra{
-  display: inline-block;
-  text-align: left;
-  width: 95%;
-  margin-top: 10px;
-  margin-right: 25px;
-  margin-bottom: 15px;
   margin-left: 25px;
 }
 .main-content{
   display: inline-block;
-  width: 500px;
-  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: left;
+}
+.archive-content{
+  width: 100%;
+  display: inline-block;
   margin-right: 25px;
   margin-bottom: 25px;
   margin-left: 25px;
@@ -199,35 +168,6 @@ body{
   text-align: left;
 }
 
-/* About page 'Recent' blocks */
-.twocolumn-wrapper{
-  column-count: 2;
-  width: 100%;
-  margin: 0;
-}
-.twocolumn-block-left{
-  display: inline-block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-bottom: 10px;
-  width: 271px;
-  margin: auto;
-}
-.twocolumn-block-right{
-  display: inline-block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-bottom: 10px;
-  width: 271px;
-  margin-left: 25px;
-  margin-right: 0px;
-}
 footer{
   display: block;
   text-align: center;
@@ -240,8 +180,6 @@ footer{
 .project-img{
   float: right;
   margin-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 5px;
 }
 .blogphoto{
   display: inline;
@@ -259,7 +197,7 @@ footer{
   padding-top: 10px;
 }
 .sidebarimg{
-  width: 80%;
+  width: 100%;
   max-width: 250px;
 }
 .game-img{
@@ -331,12 +269,12 @@ footer{
 /* Mobile Layout */
 @media screen and (max-width: 767px) {
 body{
+  background-color: #0b0b0b;
   background-image: url(Images/bg-toyoko.jpg);
   background-position: top;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
-  margin: 0;
-  width: 100%;
+  background-size: cover;
 }
 
 iframe{
@@ -348,122 +286,62 @@ iframe{
 }
 /* Main blocks */
 .page{
-  column-count: 1;
   width: 100%;
-  margin: auto;
 }
 .left{
+  background-color: rgb(11, 11, 11,0.97);
   position: static;
-  max-width: 90%;
-  margin-top: 10px;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 65px;
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 20px;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  margin-bottom: -10px;
 }
 .right{
+  background-color: rgb(11, 11, 11,0.97);
   position: static;
-  max-width: 100%;
-  width: 300px;
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 10px;
   padding-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.menu{
-  position: fixed;
-  z-index: 1;
-  margin-top: 0px;
-  margin-right: auto;
-  padding-top: 5px;
-  width: 100%;
-}
-.content-menu{
-  display: inline-block;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-bottom: 10px;
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-.content-left-desktop{
-  display: none;
-}
-.content-left{
-  margin-top: 10px;
-}
-.content-right{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
+  padding-bottom: 20px;
+  margin-bottom: -10px;
 }
 
 /* Text blocks */
-.content-mobile{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 0px;
-  margin-right: 2px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
 .sidebar-content{
   display: inline-block;
   text-align: center;
-  width: 95%;
   margin-top: 15px;
-  margin-right: 2px;
   margin-bottom: 15px;
-  margin-left: 2px;
-}
-.sidebar-content-extra{
-  display: inline-block;
-  text-align: center;
-  width: 95%;
-  margin-top: 15px;
-  margin-right: 2px;
-  margin-bottom: 15px;
-  margin-left: 2px;
 }
 .main-content{
   display: inline-block;
   text-align: center;
-  width: 95%;
-  margin-top: 15px;
-  margin-right: 2px;
+  margin-top: -25px;
   margin-bottom: 15px;
-  margin-left: 2px;
 }
-.bio-content{
+.archive-content{
   display: inline-block;
   text-align: center;
-  width: 95%;
-  margin-top: 5px;
-  margin-right: 2px;
+  margin-top: -20px;
   margin-bottom: 15px;
-  margin-left: 2px;
 }
 .content-desktop{
   display: none;
 }
-.menu-links{
-  display: inline-block;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 5px;
-  margin-right: 5px;
-  text-align: center;
-  width: 80%;
+.content-mobile{
+  display: inline;
+}
+.homelink{
+  margin-left: 10%;
 }
 
 /* Media classes */
@@ -474,39 +352,10 @@ iframe{
   width: 100%;
   padding: 2px;
 }
-
-/* 'Recent' about page items */
-.twocolumn-wrapper{
-  column-count: 1;
-}
-.twocolumn-block-left{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-}
-.twocolumn-block-right{
-  width: 100%;
-  display: inline-block;
-  position: static;
-  text-align: center;
-  box-sizing: border-box;
-  background-color: rgb(20,20,20,0.97);
-  border: 2px solid;
-  border-color: #f0f0f0;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-}
 footer{
   display: block;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 20px;
   padding-bottom: 15px;
   width: 100%;
 }
