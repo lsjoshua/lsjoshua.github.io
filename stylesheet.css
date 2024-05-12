@@ -301,7 +301,7 @@ iframe{
 }
 /* Main blocks */
 .page{
-  width: 100%;
+  width: 90%;
 }
 .left{
   background-color: rgb(11, 11, 11,0.97);
@@ -340,15 +340,21 @@ iframe{
 }
 .main-content-top{
   display: inline-block;
+  width: 90%;
   text-align: center;
   margin-top: -25px;
   margin-bottom: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .main-content{
   display: inline-block;
+  width: 90%;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .archive-content{
   display: inline-block;
@@ -369,16 +375,15 @@ iframe{
 /* Media classes */
 .project-img{
   float: none;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-left: 0px;
 }
 .recentprojectimg{
   width: 100%;
   padding: 2px;
 }
 footer{
-  display: block;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 15px;
-  width: 100%;
+  display: none
 }
 }
