@@ -95,8 +95,7 @@ a:active {
 
 /* Background */
 body{
-  background-color: #0b0b0b;
-  background-image: url(Images/bg-toyoko.jpg);
+  background-color: #fcfcfc;
   background-position: top;
   background-repeat: no-repeat fixed;
   background-attachment: fixed;
@@ -113,7 +112,7 @@ body{
 .left{
   position: fixed;
   display: inline-block;
-  background-color: rgb(11, 11, 11,0.97);
+  background-color: #141414;
   margin-left: 5px;
   margin-right: 5px;
   width: 300px;
@@ -125,7 +124,7 @@ body{
   display: inline-block;
   width: 690px;
   margin-left: 305px;
-  background-color: rgb(11, 11, 11,0.97);
+  background-color: #141414;
   top: 0;
   border-left: 1px solid #ffffff;
 }
@@ -149,6 +148,7 @@ body{
   margin-bottom: 25px;
   margin-left: 25px;
   margin-right: 25px;
+  padding-top: 25px;
   text-align: left;
 }
 .main-content{
@@ -236,11 +236,6 @@ iframe{
 /* Tablet Layout */
 @media screen and (max-width: 1023px) and (min-width: 768px){
 body{
-  background-image: url(Images/bg-toyoko.jpg);
-  background-position: top;
-  background-repeat: no-repeat fixed;
-  background-attachment: fixed;
-  background-size: cover;
   width: 100%;
   margin: 0;
 }
@@ -284,12 +279,7 @@ footer{
 /* Mobile Layout */
 @media screen and (max-width: 767px) {
 body{
-  background-color: #0b0b0b;
-  background-image: url(Images/bg-toyoko.jpg);
-  background-position: top;
-  background-repeat: no-repeat fixed;
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #000000;
 }
 
 iframe{
@@ -304,7 +294,7 @@ iframe{
   width: 90%;
 }
 .left{
-  background-color: rgb(11, 11, 11,0.97);
+  background-color: #141414;
   position: static;
   display: inline-block;
   width: 90%;
@@ -317,7 +307,7 @@ iframe{
   margin-bottom: -10px;
 }
 .right{
-  background-color: rgb(11, 11, 11,0.97);
+  background-color: #141414;
   position: static;
   display: inline-block;
   width: 90%;
