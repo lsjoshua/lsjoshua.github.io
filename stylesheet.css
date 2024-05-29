@@ -295,7 +295,7 @@ iframe{
   width: 90%;
 }
 .left{
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.95);
   position: static;
   display: inline-block;
   width: 90%;
@@ -308,7 +308,7 @@ iframe{
   margin-bottom: -10px;
 }
 .right{
-  background-color: #141414;
+  background-color: rgb(20,20,20,0.95);
   position: static;
   display: inline-block;
   width: 90%;
