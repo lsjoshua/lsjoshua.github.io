@@ -70,7 +70,7 @@ a:hover {
   text-decoration-line: none;
 }
 a:active {
-  color: #d2eafc;
+  color: #000000;
 }
 
 .center{ /*Override any other text align code*/
