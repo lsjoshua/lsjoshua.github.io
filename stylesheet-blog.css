@@ -50,6 +50,12 @@ p3 { /* Used for menu items */
   text-align: center !important;
   text-shadow: 2px 2px #000000;
 }
+p4 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center !important;
+}
 div {
   font-family: "Atkinson Hyperlegible", sans-serif;
   color: #ffffff;
@@ -67,7 +73,7 @@ a:hover {
   text-decoration-line: none;
 }
 a:active {
-  color: #d2eafc;
+  color: #ffffff;
 }
 
 .center{ /*Override any other text align code*/
