@@ -141,16 +141,6 @@ body{
   margin-left: 25px;
   margin-right: 25px;
 }
-.blogbox{
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  text-align: center;
-}
 .blogpostbox{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -164,6 +154,9 @@ body{
   border-bottom: 1px solid;
   border-color: #000000;
 }
+.projectwrapper-bottom{
+  max-width: 500px;
+}
 .vidwrapper{
   position: relative;
   display: block;
@@ -172,6 +165,14 @@ body{
   margin: auto;
   padding: 0% 0% 56.25%; /* 16:9 ratio */
   overflow: hidden;
+}
+.blogphoto{
+  display: inline;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid;
+  border-color: #f0f0f0;
+  text-align: center;
 }
 .vidwrapper iframe {
   position: absolute;
