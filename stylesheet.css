@@ -131,7 +131,7 @@ body{
   flex: 1;
 }
 .main-wrapper{
-  
+  max-width: 500px;
 }
 .header{
   text-align: center;
