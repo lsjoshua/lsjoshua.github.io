@@ -4,63 +4,109 @@ html {
 
 
 /* Fonts */
-@font-face {
- font-family: "Atkinson Hyperlegible", sans-serif;
- src: url(./AtkinsonHyperlegible-Regular.ttf) format('ttf');
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-@font-face {
- font-family: "Atkinson Hyperlegible Bold", sans-serif;
- src: url(./AtkinsonHyperlegible-Bold.ttf) format('ttf');
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
 
 /* Text */
 h1 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.0;
   }
 h2 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
   }
 h3 {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.0;
   }
 
 p {
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 16px;
-  color: #ffffff;
+  font-size: 18px;
+  color: #000000;
   text-indent: 4ch;
+  text-align: left;
   }
 p2 {
   font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+p3 {
+  font-family: "Space Mono", monospace;
   font-size: 12px;
-  color: #ffffff;
+  color: #000000;
 }
 div {
   font-family: "Atkinson Hyperlegible", sans-serif;
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Link text colours */
 a:link {
-  color: #ffffff;
+  color: #000000;
 }
 a:visited {
-  color: #ffffff;
+  color: #000000;
 }
 a:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration-line: none;
 }
 a:active {
-  color: #ffffff;
+  color: #000000;
 }
 
 .center{ /*Override any other text align code*/
@@ -70,19 +116,14 @@ a:active {
 
 /* Background */
 body{
-  background-color: #141414;
-  background-image: url(Images/bg-field.png);
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat fixed;
-  background-attachment: fixed;
+  background-color: #fcfcfc;
 }
 
 /* Blog layout */
 .blog{
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 600px;
 }
 .blog-post{
   margin: auto;
@@ -91,10 +132,6 @@ body{
 .contentblock{
   display: block;
   text-align: center;
-  box-sizing: border-box;
-  background-color: #141414;
-  border: 2px solid;
-  border-color: #f0f0f0;
   text-align: center;
   margin-top: 5%;
   width: auto;
@@ -109,6 +146,10 @@ body{
 }
 .blogheader{
   text-align: center;
+}
+.blogpostbox{
+  padding-left: 25px;
+  padding-right: 25px;
 }
 footer{
   display: block;
@@ -138,11 +179,6 @@ footer{
 /* Tablet Layout */
 @media screen and (max-width: 1023px) and (min-width: 768px){
 body{
-  background-image: url(Images/bg-field.png);
-  background-position: top;
-  background-repeat: no-repeat fixed;
-  background-attachment: fixed;
-  background-size: cover;
   width: 100%;
   margin: 0;
 }
@@ -158,7 +194,7 @@ iframe{
   display: block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: #fcfcfc;
   width: 92%;
   border: 2px solid;
   border-color: #f0f0f0;
@@ -177,11 +213,6 @@ footer{
 /* Mobile Layout */
 @media screen and (max-width: 767px) {
 body{
-  background-image: url(Images/bg-field.png);
-  background-position: top;
-  background-repeat: no-repeat fixed;
-  background-attachment: fixed;
-  background-size: cover;
   margin: 0;
   width: 100%;
 }
@@ -201,7 +232,7 @@ iframe{
   display: block;
   text-align: center;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: #fcfcfc;
   width: 92%;
   border: 2px solid;
   border-color: #f0f0f0;
