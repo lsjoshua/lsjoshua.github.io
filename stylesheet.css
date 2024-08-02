@@ -120,15 +120,12 @@ body{
 /* Desktop */
 /* Main layout elements */
 .wrapper{
-  max-width: 900px;
+  max-width: 700px;
   margin-top: 25px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   flex: 1;
-}
-.main-wrapper{
-
 }
 .header{
   text-align: center;
@@ -175,9 +172,13 @@ body{
   max-width: 500px;
   border-bottom: 1px solid;
   border-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 .projectwrapper-bottom{
   max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .vidwrapper{
   position: relative;
