@@ -181,7 +181,7 @@ body{
 
 .borderimg{
   outline: 2px solid black;
-  box-shadow: 4px 4px black
+  box-shadow: 4px 4px black;
 }
 
 .bandcamp-wrapper{
@@ -218,12 +218,31 @@ body{
   width: 750px;
   padding: 5px;
   margin-top: 10px;
+  border: 2px solid black;
   font-family: "Space Mono", monospace;
   font-size: 16px;
 }
-.button.btn btn-lg btn-dark btn-block{
+.button{
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  outline: 2px solid black;
+  box-shadow: 4px 4px black;
+  padding: 15px 32px;
+  margin-top: 5px;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-family: "Space Mono", monospace;
   font-size: 16px;
+}
+.button:hover {
+  background-color: #f0f0f0;
+}
+.button:active {
+  box-shadow: 1px 1px black;
+  transform: translate(2px,2px);
 }
 
 /* Menu Stuff */
