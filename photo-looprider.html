@@ -17,11 +17,53 @@
 		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-	<div class="wrapper">
-	<div class="header">
-		<p5><a href="./">HOME</a>・<a href="./music">MUSIC</a>・<a href="./photo">PHOTO</a></p5><br><br><br>
+	<div class="columns">
+	<div class="left">
+		<!--Desktop sidebar menu-->
+		<div class ="menu-desktop">
+		<div class="sidenav">
+		<div class="sidenav-main">
+		<a href="./index"><h1>JOSHUA LEE</h1></a>
+		<p2>Photographer/Guitarist<br>Tokyo</p2><br><br>
+  			<p5><b>Photography</b><br>
+				<a href="./photo-heavyrocks">&nbsp;Tokyo Heavy Rocks</a><br>
+				<a href="./photo-looprider">&nbsp;<b>Looprider</b></a><br>
+				<a href="./photo-uk">&nbsp;Silver & Golden Hours</a><br>
+				<b>Music</b><br>
+				<a href="./music-palestar">&nbsp;Pale Star</a>
+			</p5>
+				</div>
+  			<div class="sidenav-bottom">
+  			<p4><a href="./contact"><b>Contact</b></a><br>
+				<a href="https://www.instagram.com/_joshslee/" target="blank"><b>Instagram</b></a><br>
+				<a href="https://pale-star.bandcamp.com" target="blank"><b>Bandcamp</b></a></p4>
 		</div>
-			<div class="main-content">
+	</div>
+	</div>
+	<!--Mobile curtain menu-->
+		<div class ="menu-mobile">
+			<span class="menu-mobile-btn" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			<a href="./index"><h2>JOSHUA LEE</h2></a>
+			<p2>Photographer/Guitarist<br>Tokyo</p2>
+		</div>
+				<div id="myNav" class="overlay">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<div class="overlay-content">
+  			<b>Photography</b><br>
+				<a href="./photo-heavyrocks">Tokyo Heavy Rocks</a>
+				<a href="./photo-looprider">Looprider</a>
+				<a href="./photo-uk">Silver & Golden Hours</a>
+				<b>Music</b><br>
+				<a href="./music-palestar">Pale Star</a>
+			<br><br><br>
+  		<a class="socials" href="./contact"><b>Contact</b></a>
+			<a class="socials" href="https://www.instagram.com/joshlee.photo/" target="blank"><b>Instagram</b></a>
+			<a class="socials" href="https://pale-star.bandcamp.com" target="blank"><b>Bandcamp</b></a>
+	</div>
+</div>
+</div>
+<!--Main page content-->
+<div class="right">
 				<h1>Looprider</h1><p2><i>Nov. 2023</i></p2><p>Live photos and portraits for Tokyo-based band Looprider</p>
 				<div class="row">
 				<div class="column">
@@ -44,8 +86,53 @@
 		</div>
 	</div>
 </div>
-<footer>
+<!--<footer>
 	<p3>© Copyright <script>document.write(new Date().getFullYear())</script>, Joshua Lee</p3>
-</footer>
+</footer>-->
+<!--Javascript for menus-->
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
 </body>
 </html>
