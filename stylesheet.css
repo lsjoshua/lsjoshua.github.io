@@ -117,12 +117,17 @@ a:active {
   text-align: center !important;
 }
 /* Layout */
+html{
+  overflow-x: hidden;
+}
+
 body{
   display: block;
   margin: 0;
   width: 100vw;
   font-variant-ligatures: none;
   font-feature-settings: "liga" 0;
+  overflow-x: hidden;
 }
 .profile{
   padding-top: 20px;
