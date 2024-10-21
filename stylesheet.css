@@ -72,6 +72,12 @@ p {
   color: #000000;
   line-height: 1.5;
   }
+pjp { /*Font for JP text*/
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.5;
+  }
 p2 {
   font-family: "Space Mono", monospace;
   font-size: 14px;
@@ -580,6 +586,11 @@ img{
 .button:active {
   box-shadow: 1px 1px black;
   transform: translate(2px,2px);
+}
+
+.text-wrapper{
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /* Change footer padding for mobile */
