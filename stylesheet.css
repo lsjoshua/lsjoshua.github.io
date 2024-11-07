@@ -206,8 +206,8 @@ body{
   text-align: center;
 }
 .column{
-  flex: 30%;
-  max-width: 30%;
+  flex: 50%;
+  max-width: 75%;
   padding: 0 2px;
 }
 .column img{
