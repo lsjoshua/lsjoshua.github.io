@@ -149,7 +149,7 @@ body{
 /* Desktop */
 /* Main layout elements */
 .wrapper{
-  max-width: 1200px;
+  max-width: 1025px;
   box-sizing: border-box;
   margin-top: 25px;
   margin-bottom: 0px;
