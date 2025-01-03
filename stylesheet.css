@@ -380,6 +380,7 @@ footer{
 }
 .bioimg{
   float: none;
+  max-width: 90%;
   padding-bottom: 0px;
 }
 .blogphoto{
