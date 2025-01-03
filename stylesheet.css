@@ -242,7 +242,6 @@ body{
   box-shadow: 4px 4px black;
 }
 .borderimg{
-  width: 350px;
   outline: 2px solid black;
   box-shadow: 4px 4px black
 }
@@ -251,10 +250,10 @@ body{
   max-width: 100%;
 }
 .gallery img{
-  width: 100%;
+  max-width: 100%;
   vertical-align: middle;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /* Contact form styling */
