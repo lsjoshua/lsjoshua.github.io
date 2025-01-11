@@ -256,12 +256,28 @@ body{
   flex: 50%;
   max-width: 100%;
 }
-.gallery img{
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.gallery-column {
+  flex: 25%;
+  max-width: 60%;
+  padding: 0 4px;
+}
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*.gallery img{
   max-width: 100%;
   vertical-align: middle;
   padding-top: 5px;
   padding-bottom: 5px;
-}
+}*/
 
 /* Contact form styling */
 .form-control{
@@ -329,6 +345,24 @@ body{
 }
 .textwrapper{
   max-width: 90%;
+}
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sit next to each other */
+.gallery-column {
+  flex: 25%;
+  min-width: 100%;
+  padding: 0 0px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 /* Mobile-only header */
 .mobile-header{
