@@ -4,93 +4,115 @@ html {s
 
 
 /* Fonts */
-.atkinson-hyperlegible-regular {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+.cormorant-garamond-light {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.atkinson-hyperlegible-bold {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+.cormorant-garamond-medium {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.atkinson-hyperlegible-regular-italic {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+.cormorant-garamond-light-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: italic;
 }
 
-.atkinson-hyperlegible-bold-italic {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+.cormorant-garamond-medium-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: italic;
 }
-.space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
+
+.noto-serif-jp-<uniquifier> {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-}
-
-.space-mono-bold {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-.space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
 }
 
 
 /* Text */
 h1 { /* Used for name in header */
-  font-family: "Space Mono", monospace;
-  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
   color: #000000;
   line-height: 1.5;
   display: inline;
   }
 h2 { /* Used on Games page for project names */
-  font-family: "Space Mono", monospace;
-  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
   color: #000000;
   line-height: 1.5;
   }
 p { /* Used for generic text */
-  font-family: "Space Mono", monospace;
-  font-size: 16px;
+  font-family: "Cormorant Garamond", "Noto Serif JP", serif;
+  font-size: 18px;
   color: #000000;
   line-height: 1.5;
   }
 p2 { /* Used for name subtitle */
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 14px;
   color: #0c0c0c;
   line-height: 1.5;
   display: inline;
 }
 p3 { /* Used for footer text */
-  font-family: "Space Mono", monospace;
-  font-size: 12px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
   color: #000000;
 }
-p4 { /* Unused? */
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 16px;
-  color: #000000;
-  }
-p5 { /* Used for menu text */
-  font-family: "Space Mono", monospace;
+p4 { /* Used for menu text */
+  font-family: "Cormorant Garamond", serif;
   font-size: 18px;
+  color: #000000;
+  line-height: 1.5;
+  }
+p5 { /* Used for generic Japanese text */
+  font-family: "Noto Serif JP", serif;
+  font-size: 15px;
   color: #000000;
   line-height: 1.5;
   }
@@ -192,7 +214,7 @@ body{
 .textwrapper{
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 900px;
 }
 .formwrapper{
   margin-left: auto;
@@ -247,10 +269,10 @@ body{
 }
 .bioimg{
   float: left;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .gallery{
   flex: 50%;
@@ -285,7 +307,7 @@ body{
   padding: 5px;
   margin-top: 10px;
   border: 2px solid black;
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 16px;
 }
 .button{
@@ -301,7 +323,7 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 16px;
 }
 .button:hover {
@@ -415,7 +437,11 @@ footer{
 .bioimg{
   float: none;
   max-width: 90%;
-  padding-bottom: 0px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .blogphoto{
   max-width: 320px;
