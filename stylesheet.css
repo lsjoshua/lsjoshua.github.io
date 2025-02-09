@@ -85,6 +85,7 @@ h2 { /* Used on Games page for project names */
   font-size: 20px;
   color: #000000;
   line-height: 1.5;
+  display: inline;
   }
 p { /* Used for generic text */
   font-family: "Cormorant Garamond", "Noto Serif JP", serif;
@@ -116,6 +117,9 @@ p5 { /* Used for generic Japanese text */
   color: #000000;
   line-height: 1.5;
   }
+p.unlined{
+  text-decoration-line: none !important;
+}
 
 /* Link text - used for generic links */
 a:link {
@@ -235,11 +239,19 @@ body{
   border-color: #000000;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
 }
-.projectwrapper-bottom{
+.projectwrapper img{
+  max-width: 450px
+}
+.projectwrapper-noline{
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 26px;
+}
+.projectwrapper-noline img{
+  max-width: 450px
 }
 .vidwrapper{
   position: relative;
@@ -254,15 +266,6 @@ body{
 
 
 /* Images and photo gallery*/
-.blogphoto{
-  max-width: 450px;
-  border: 1px solid;
-  border-color: #f0f0f0;
-  margin-bottom: 5px;
-  text-align: center;
-  border: 2px solid black;
-  box-shadow: 4px 4px black;
-}
 .borderimg{
   outline: 2px solid black;
   box-shadow: 4px 4px black
