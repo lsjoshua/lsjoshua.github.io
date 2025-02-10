@@ -242,7 +242,7 @@ body{
   margin-bottom: 25px;
 }
 .projectwrapper img{
-  max-width: 450px
+  max-width: 90%
 }
 .projectwrapper-noline{
   max-width: 500px;
@@ -251,7 +251,7 @@ body{
   margin-bottom: 26px;
 }
 .projectwrapper-noline img{
-  max-width: 450px
+  max-width: 90%
 }
 .vidwrapper{
   position: relative;
