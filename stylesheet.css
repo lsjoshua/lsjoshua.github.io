@@ -526,11 +526,11 @@ body{
 }
 .mobile-menu{
   width: 100%;
-  float: left;
-  display: block;
+  display: inline;
   text-align: center;
   margin-top: 5px;
   padding-bottom: 10px;
+  vertical-align: middle;
 }
 .formwrapper{
   margin-left: 2%;
