@@ -453,9 +453,8 @@ body{
 
 .menu-mobile-btn{
   float: right;
-  margin-top: 0px;
+  margin-top: -2px;
   margin-right: 22px;
-  padding-bottom: 5px;
 }
 /* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {
