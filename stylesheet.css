@@ -194,6 +194,10 @@ body{
 }
 
 /* Header layout */
+.desktop-header{
+  display: block;
+  padding-bottom: 55px;
+}
 .header-left{
   margin-top: 10px;
   margin-bottom: 15px;
@@ -517,6 +521,8 @@ body{
   text-align: left;
   display: block;
   margin-left: 25px;
+  margin-top: 2px;
+  padding-bottom: 20px;
 }
 .mobile-icons{
   float: none;
@@ -526,11 +532,10 @@ body{
 }
 .mobile-menu{
   width: 100%;
-  display: inline;
+  display: block;
   text-align: center;
   margin-top: 5px;
-  padding-bottom: 10px;
-  vertical-align: middle;
+
 }
 .formwrapper{
   margin-left: 2%;
