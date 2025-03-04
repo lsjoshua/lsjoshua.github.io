@@ -497,6 +497,10 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+.main-content{
+  margin-left: 2px;
+  margin-right: 2px;
+}
 .desktop-header{
   display: none;
 }
@@ -528,6 +532,7 @@ body{
   flex: 100%;
   width: 100%;
   gap: 8px;
+  margin: 0px;
 }
 
 .gallery-column-small img {
