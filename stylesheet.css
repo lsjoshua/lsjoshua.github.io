@@ -525,13 +525,12 @@ body{
 
 .gallery-column-small {
   display: flex;
-  flex: 25%;
-  min-width: 100%;
+  flex: 100%;
+  width: 100%;
   gap: 8px;
 }
 
 .gallery-column-small img {
-  display: inline-flex;
   vertical-align: middle;
   max-width: 50%;
 }
