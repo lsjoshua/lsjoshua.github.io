@@ -304,7 +304,7 @@ body{
 .gallery-column-small {
   display: inline-flex;
   flex: 25%;
-  width: 100%;
+  max-width: 100%;
   gap: 8px;
 }
 .gallery-column-small img {
@@ -517,10 +517,24 @@ body{
 }
 
 .gallery-column img {
-  margin-top: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   vertical-align: middle;
   width: 100%;
 }
+
+.gallery-column-small {
+  display: inline-flex;
+  flex: 25%;
+  max-width: 100%;
+  gap: 8px;
+}
+
+.gallery-column-small img {
+  vertical-align: middle;
+  max-width: 50%;
+}
+
 /* Mobile-only header */
 .mobile-header{
   display: block;
