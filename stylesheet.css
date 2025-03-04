@@ -528,9 +528,7 @@ body{
 }
 
 .gallery-column-small {
-  display: flex;
-  flex: 100%;
-  width: 100%;
+  width: 100% !important;
   gap: 8px;
   margin: 0px;
 }
