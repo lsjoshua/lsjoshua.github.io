@@ -528,7 +528,8 @@ body{
 }
 
 .gallery-column-small {
-  width: 100%;
+  flex: 25%;
+  max-width: 100%;
   gap: 8px;
   margin: 0px;
 }
@@ -536,7 +537,7 @@ body{
 .gallery-column-small img {
   display: flex;
   vertical-align: middle;
-  /*max-width: 50%;*/
+  max-width: 50%;
 }
 
 /* Mobile-only header */
