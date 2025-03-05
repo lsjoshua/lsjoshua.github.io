@@ -529,16 +529,16 @@ body{
 
 .gallery-column-small {
   display: inherit;
-  flex: 25%;
+  flex: 100%;
   min-width: 100%;
-  gap: 4 0px;
+  gap: 4px;
 }
 
 .gallery-column-small img {
   display: flex;
   flex: 25%;
   vertical-align: middle;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 /* Mobile-only header */
