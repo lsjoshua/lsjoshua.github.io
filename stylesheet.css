@@ -528,14 +528,15 @@ body{
 }
 
 .gallery-column-small {
-  width: 40%;
+  width: 100%;
   gap: 8px;
   margin: 0px;
 }
 
 .gallery-column-small img {
+  display: flex;
   vertical-align: middle;
-  max-width: 50%;
+  /*max-width: 50%;*/
 }
 
 /* Mobile-only header */
