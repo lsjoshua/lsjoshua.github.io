@@ -536,6 +536,8 @@ body{
 
 .gallery-column-small img {
   display: flex;
+  padding-top: 2px;
+  padding-bottom: 2px;
   flex: 25%;
   vertical-align: middle;
   max-width: 100%;
