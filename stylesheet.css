@@ -516,7 +516,7 @@ body{
 /* Create two equal columns that sit next to each other */
 .gallery-column {
   flex: 25%;
-  width: 100%;
+  min-width: 100%;
   padding: 0 0px;
 }
 
@@ -528,10 +528,10 @@ body{
 }
 
 .gallery-column-small {
+  display: inherit;
   flex: 25%;
-  max-width: 100%;
-  gap: 8px;
-  margin: 0px;
+  min-width: 100%;
+  gap: 4 0px;
 }
 
 .gallery-column-small img {
