@@ -234,21 +234,16 @@ body{
   margin-right: auto;
   max-width: 750px;
 }
-.projectwrapper{
-  max-width: 500px;
-  border-bottom: 1px solid;
-  border-color: #000000;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25px;
-}
 .projectwrapper img{
   max-width: 90%
 }
 .projectwrapper-noline{
-  max-width: 500px;
+  display: inline-block;
+  max-width: 450px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 26px;
 }
 .projectwrapper-noline img{
