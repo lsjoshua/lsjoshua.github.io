@@ -192,6 +192,9 @@ body{
  margin-left: auto;
  margin-right: auto;
 }
+.main-content iframe{
+  text-align: center;
+}
 
 /* Header layout */
 .desktop-header{
