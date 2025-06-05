@@ -84,8 +84,6 @@ h2 { /* Used on Games page for project names */
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   color: #000000;
-  line-height: 1.5;
-  display: inline;
   }
 p { /* Used for generic text */
   font-family: "Cormorant Garamond", "Noto Serif JP", serif;
@@ -95,8 +93,8 @@ p { /* Used for generic text */
   }
 p2 { /* Used for name subtitle */
   font-family: "Cormorant Garamond", serif;
-  font-size: 14px;
-  color: #0c0c0c;
+  font-size: 16px;
+  color: #000000;
   line-height: 1.5;
   display: inline;
 }
@@ -195,7 +193,6 @@ body{
 .main-content iframe{
   text-align: center;
 }
-
 /* Header layout */
 .desktop-header{
   display: block;
@@ -205,6 +202,9 @@ body{
   margin-top: 10px;
   margin-bottom: 15px;
   float: left;
+}
+.header-left a.noline:hover {
+  opacity: 0.8;
 }
 .header-right{
   margin-top: 10px;
@@ -233,13 +233,31 @@ body{
   max-width: 700px;
 }
 .biowrapper{
+  display: inline-block;
+  box-sizing: border-box;
+  padding-bottom: 18px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 750px;
-  column-count: 2;
-  margin-bottom: 25px;
+  width: 1024px;
+  margin-bottom: 10px;
 }
-
+.biotext{
+  max-width: 700px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 50px;
+}
+.biowrapper img{
+  float: left;
+  max-width: 300px;
+  margin-left: 25%;
+  margin-right: 25px;
+  outline: 2px solid black;
+  box-shadow: 4px 4px black;
+}
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
@@ -250,21 +268,96 @@ body{
   max-width: 60%;
   padding: 0 4px;
 }
-.projectwrapper img{
-  max-width: 90%
+.photo-links-wrapper{
+  padding-top: 10px;
+  columns: 2;
 }
-.projectwrapper-noline{
-  display: inline-block;
-  max-width: 450px;
+.music-wrapper{
+  padding-top: 10px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 26px;
 }
-.projectwrapper-noline img{
-  max-width: 90%
+.games-wrapper{
+  box-sizing: border-box;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
+.photo-link{
+  display: inline-block;
+  max-width: 450px;
+  height: 450px;
+}
+.photo-link img{
+  max-width: 90%;
+}
+.music-img{
+  float: right;
+}
+.line{
+  width: 75%;
+  border-bottom: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.blog-wrapper{
+  padding-top: 10px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog{
+  display: inline-block;
+  max-width: 450px;
+  height: 330px;
+}
+.blog p{
+  margin-top: 0px;
+}
+.blog img{
+  max-width: 90%;
+  outline: 2px solid black;
+  box-shadow: 4px 4px black;
+}
+/* Blog specific code */
+.blog-content{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 80%;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blogheader{
+  text-align: center;
+}
+.blogphoto{
+  display: inline-block;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+}
+.blog-content img{
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.blog-content iframe{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
 .vidwrapper{
   position: relative;
   display: block;
@@ -607,14 +700,70 @@ footer{
 }
 .bioimg{
   float: none;
-  max-width: 90%;
+  width: 90%;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 0px;
   margin-right: 15px;
   margin-left: 15px;
 }
+.biowrapper{
+  width: 90%;
+}
+.biowrapper img{
+  float: none;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
 .blogphoto{
   max-width: 320px;
+}
+.photo-link{
+  box-sizing: border-box;
+  height: 350px;
+  margin-bottom: 35px;
+}
+.photo-links-wrapper{
+  columns: 1;
+}
+.projects-wrapper{
+  padding-top: 10px;
+  columns: 1;
+}
+.blog-wrapper{
+  padding-top: 10px;
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 90%;
+  margin-right: 25px;
+  margin-left: 25px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-content iframe{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.music-wrapper{
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.biotext{
+  padding-top: 0px;
 }
 }
