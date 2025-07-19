@@ -257,8 +257,7 @@ body{
   max-width: 400px;
   border: solid black 2px;
   box-shadow: 4px 4px black;
-  margin-left: 10px;
-  margin-right: 10px;
+  
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
@@ -271,6 +270,11 @@ body{
 }
 .projectwrapper img{
   max-width: 90%
+}
+.wrapperbox{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .vidwrapper{
   position: relative;
