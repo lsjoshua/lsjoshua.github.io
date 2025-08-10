@@ -67,8 +67,8 @@ p { /* Used for generic text */
   }
 p2 { /* Used for name subtitle */
   font-family: "Space Mono", monospace;
-  font-size: 16px;
-  color: #000000;
+  font-size: 14px;
+  color: #7a7a7a;
   line-height: 1.5;
   display: inline;
 }
@@ -212,6 +212,7 @@ body{
   column-count: 2;
   gap: 50px;
   margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 .gallery-row {
@@ -488,6 +489,7 @@ body{
   margin-right: 15px;
   column-count: 1;
   padding-bottom: 25px;
+  margin-top: 0px;
 }
 .desktop-header{
   display: none;
