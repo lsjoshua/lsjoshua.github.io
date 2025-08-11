@@ -260,16 +260,14 @@ body{
   display: inline-block;
   max-width: 400px;
   border: solid black 2px;
-  box-shadow: 4px 4px black;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 26px;
 }
-.projectwrapper:active {
-  box-shadow: 1px 1px black;
-  transform: translate(2px,2px);
+.projectwrapper:hover {
+  background-color: #f5f5f5;
 }
 .projectwrapper img{
   max-width: 90%
