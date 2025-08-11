@@ -2,97 +2,128 @@ html {s
   overflow-y: scroll;
 }
 
-
 /* Fonts */
-.space-grotesk-<uniquifier> {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
+.cormorant-garamond-light {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
+.cormorant-garamond-medium {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
   font-style: normal;
 }
 
-.space-mono-bold {
-  font-family: "Space Mono", monospace;
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
+.cormorant-garamond-light-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: italic;
 }
 
-.space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
+.cormorant-garamond-medium-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: italic;
 }
 
-.noto-sans-jp-<uniquifier> {
-  font-family: "Noto Sans JP", sans-serif;
+.noto-serif-jp-<uniquifier> {
+  font-family: "Noto Serif JP", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: <weight>;
   font-style: normal;
 }
 
 
 /* Text */
 h1 { /* Used for name in header */
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 22px;
   color: #000000;
   line-height: 1.5;
-  letter-spacing: 0.1rem;
   display: inline;
   }
+h1:hover{
+  opacity: 0.8;
+}
 h2 { /* Used on Games page for project names */
-  font-family: "Space Mono", monospace;
-  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
   color: #000000;
   line-height: 1.5;
   display: inline;
   }
 p { /* Used for generic text */
-  font-family: "Space Mono", monospace;
-  font-size: 16px;
+  font-family: "Cormorant Garamond", "Noto Serif JP", serif;
+  font-size: 18px;
   color: #000000;
   line-height: 1.5;
   }
 p2 { /* Used for name subtitle */
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
   color: #7a7a7a;
   line-height: 1.5;
   display: inline;
 }
 p3 { /* Used for footer text */
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 14px;
   color: #000000;
 }
 p4 { /* Used for menu text */
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 18px;
   color: #000000;
   line-height: 1.5;
+  font-weight: bold;
   }
-p5 { /* Used for Japanese text */
-  font-family: "Space Mono", monospace;
-  font-size: 17px;
+p5 { /* Used for generic Japanese text */
+  font-family: "Noto Serif JP", serif;
+  font-size: 15px;
   color: #000000;
   line-height: 1.5;
   }
-
 p.unlined{
   text-decoration-line: none !important;
 }
+
 
 /* Link text - used for generic links */
 a:link {
@@ -308,7 +339,7 @@ body{
   padding: 5px;
   margin-top: 10px;
   border: 2px solid black;
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 16px;
 }
 .button{
@@ -324,7 +355,7 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   font-size: 16px;
 }
 .button:hover {
@@ -377,7 +408,7 @@ body{
   text-decoration: none;
   font-size: 25px;
   color: #000000;
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   line-height: 1.5;
   display: block;
   transition: 0.2s;
@@ -392,7 +423,7 @@ body{
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Space Mono", monospace;
+  font-family: "Cormorant Garamond", serif;
   color: #000000;
   display: block;
   border: none;
