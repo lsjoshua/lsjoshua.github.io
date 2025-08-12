@@ -272,7 +272,7 @@ body{
  transition: 0.1s;
 }
 .projectwrapper img{
-  max-width: 360px;
+  max-width: 90%;
 }
 
 .wrapperbox{
