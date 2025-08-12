@@ -82,7 +82,7 @@ h1 { /* Used for name in header */
 h1:hover{
   opacity: 0.8;
 }
-h2 { /* Used on Games page for project names */
+h2 { /* Used on photo page for project names */
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   color: #000000;
@@ -259,23 +259,20 @@ body{
 .projectwrapper{
   display: inline-block;
   max-width: 400px;
-
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   margin-bottom: 26px;
 }
 .projectwrapper:hover {
  opacity: 0.8;
+ filter: brightness(50%);
+ filter: saturate(0%);
  
 }
 .projectwrapper img{
   max-width: 90%
-}
-.projectwrapper img:hover{
-  filter: brightness(50%);
-  filter: saturate(0%);
 }
 
 .wrapperbox{
