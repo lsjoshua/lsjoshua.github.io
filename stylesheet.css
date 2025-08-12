@@ -269,10 +269,10 @@ body{
  opacity: 0.8;
  filter: brightness(50%);
  filter: saturate(0%);
- 
+ transition: 0.1s;
 }
 .projectwrapper img{
-  max-width: 90%
+  max-width: 360px;
 }
 
 .wrapperbox{
