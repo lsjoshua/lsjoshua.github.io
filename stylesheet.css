@@ -74,7 +74,7 @@ html {s
 /* Text */
 h1 { /* Used for name in header */
   font-family: "Cormorant Garamond", serif;
-  font-size: 22px;
+  font-size: 25px;
   color: #000000;
   line-height: 1.5;
   display: inline;
@@ -97,7 +97,7 @@ p { /* Used for generic text */
   }
 p2 { /* Used for name subtitle */
   font-family: "Cormorant Garamond", serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #7a7a7a;
   line-height: 1.5;
   display: inline;
@@ -109,7 +109,7 @@ p3 { /* Used for footer text */
 }
 p4 { /* Used for menu text */
   font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #000000;
   line-height: 1.5;
   font-weight: bold;
@@ -117,6 +117,12 @@ p4 { /* Used for menu text */
 p5 { /* Used for generic Japanese text */
   font-family: "Noto Serif JP", serif;
   font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+  }
+p6 { /* Used for Chinese text */
+  font-family: "Noto Serif JP", serif;
+  font-size: 18px;
   color: #000000;
   line-height: 1.5;
   }
@@ -217,7 +223,7 @@ body{
 }
 .sns-icon{
   opacity: 1;
-  width: 25px;
+  width: 30px;
   vertical-align: middle;
   transform: translate(-8%, -8%);
 }
@@ -245,7 +251,9 @@ body{
   margin-bottom: 25px;
   margin-top: 50px;
 }
-
+.gallery-top{
+  max-width: 75%;
+}
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
@@ -258,7 +266,8 @@ body{
 }
 .projectwrapper{
   display: inline-block;
-  max-width: 400px;
+  max-width: 275px;
+  height: 300px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 20px;
@@ -267,12 +276,15 @@ body{
 }
 .projectwrapper:hover {
  opacity: 0.8;
- filter: brightness(50%);
  filter: saturate(0%);
  transition: 0.1s;
 }
 .projectwrapper img{
-  max-width: 90%;
+  max-width: 100%;
+  border: solid black 2px;
+}
+.projectwrapper p{
+  margin-top: -1px;
 }
 
 .wrapperbox{
