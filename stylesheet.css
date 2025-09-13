@@ -200,9 +200,11 @@ body{
   margin-top:-40px;
   padding-bottom: 10px;
 }
-.profile{
-  padding-left: 50px;
-  margin-left: 15%;
+.home-desktop{
+ display: inline-block;
+}
+.home-mobile{
+  display: none;
 }
 
 .footer{
@@ -233,6 +235,10 @@ body{
   width: 100%;
 }
 
+.gallery a:hover{
+  opacity: 0.8;
+  filter: saturate(0);
+}
 .sns-icon{
   opacity: 1;
   width: 30px;
@@ -457,11 +463,6 @@ iframe {
   padding-bottom: 10px;
   max-width: 100%;
 }
-.profile{
-  padding-left: 0px;
-  margin-left: 0%;
-}
-
 .gallery-column {
   flex: 25%;
   min-width: 100%;
