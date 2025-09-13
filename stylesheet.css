@@ -446,6 +446,12 @@ body{
   /* Centralise elements */
   text-align: center;
 }
+iframe {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  width: 98%;
+  margin: 0px auto;
+}
 .gallery{
   margin-top: 0px;
   padding-bottom: 10px;
