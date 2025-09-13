@@ -99,7 +99,7 @@ p { /* Used for generic text */
 p2 { /* Used for name subtitle */
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
-  color: #ebebeb;
+  color: #ededed;
   line-height: 1.5;
   display: inline;
 }
@@ -141,19 +141,19 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #3d3d3d;
+  color: #ededed;
   text-decoration: none;
 }
 a:active {
-  color: #3d3d3d;
+  color: #ededed;
   text-decoration: none;
 }
 
 /* Background */
 body{
+  background-color: #ffffff;
   background-image: url(./bg.png);
   background-position: middle;
-  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -199,7 +199,8 @@ body{
   padding-bottom: 10px;
 }
 .profile{
-  height: 100%;
+  padding-left: 50px;
+  margin-left: 15%;
 }
 
 .footer{
@@ -207,9 +208,8 @@ body{
   position: relative;
   text-align: center;
   margin: auto;
-  padding-top: 40%;
+  padding-top: 50px;
   padding-bottom: 10px;
-  bottom: 0;
 }
 
 /* Image Gallery */
@@ -307,6 +307,7 @@ iframe
   top: 0;
   left: 0;
   background-color: #FEFEFE;
+  background-color: #FEFEFE;
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -340,7 +341,7 @@ iframe
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
   font-family: "Cormorant Garamond", serif;
-  color: #ffffff;
+  color: #000000;
   display: block;
   border: none;
   background: none;
@@ -361,6 +362,7 @@ iframe
   font-size: 25px;
   line-height: 1.5;
   display: inline-block;
+
   text-align: center;
   transition: 0.2s;
 }
@@ -378,7 +380,6 @@ iframe
 /* Mobile Layout */
 @media screen and (max-width: 768px) {
 body{
-  background-position: 50% 25%;
 }
 .columns{
   display: block;
@@ -407,6 +408,7 @@ body{
   margin-top: -10px;
   padding-top: 15px;
   z-index: 100;
+  background-color: #ffffff;
 }
 .mobile-title{
   float: left;
@@ -428,9 +430,6 @@ body{
   text-align: center;
   margin-top: 5px;
 }
-.menu-mobile-btn{
-  color: #ffffff;
-}
 .desktop-header{
   display: none;
 }
@@ -451,8 +450,8 @@ body{
   max-width: 100%;
 }
 .profile{
-  height: 100%;
-  padding-top: 150%;
+  padding-left: 0px;
+  margin-left: 0%;
 }
 
 .gallery-column {
@@ -488,9 +487,10 @@ body{
 /* Change footer padding for mobile */
 .footer{
   display: block;
+  position: relative;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 40px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 }
