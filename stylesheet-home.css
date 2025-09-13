@@ -358,6 +358,10 @@ iframe
   margin-right: auto;
 }
 
+.menu-mobile-btn{
+  color: #ffffff;
+}
+
 .dropdown-btn-mobile{
   font-size: 25px;
   line-height: 1.5;
@@ -408,7 +412,6 @@ body{
   margin-top: -10px;
   padding-top: 15px;
   z-index: 100;
-  background-color: #ffffff;
 }
 .mobile-title{
   float: left;
