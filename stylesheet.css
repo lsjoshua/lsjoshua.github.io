@@ -190,6 +190,15 @@ body{
   padding-top: 40px;
   text-align: left;
 }
+.profile{
+  text-align: center !important;
+}
+.home-desktop{
+  display: inline-block;
+}
+.home-mobile{
+  display: none;
+}
 .desktop-header{
   display: block;
 }
@@ -451,6 +460,12 @@ body{
   padding-top: 0px;
   /* Centralise elements */
   text-align: center;
+}
+.home-desktop{
+  display: none;
+}
+.home-mobile{
+  display: inline-block;
 }
 iframe {
   aspect-ratio: 16 / 9;
