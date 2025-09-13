@@ -151,7 +151,7 @@ a:active {
 
 /* Background */
 body{
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url(./bg.png);
   background-position: middle;
   background-repeat: no-repeat;
@@ -384,6 +384,7 @@ iframe
 /* Mobile Layout */
 @media screen and (max-width: 768px) {
 body{
+  background-image: url(./bg-mobile.png);
 }
 .columns{
   display: block;
