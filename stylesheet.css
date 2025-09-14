@@ -224,6 +224,9 @@ body{
   padding-top: 50px;
   padding-bottom: 10px;
 }
+.formwrapper{
+  max-width: 70%;
+}
 
 /* Image Gallery */
 .gallery-row {
@@ -260,7 +263,7 @@ body{
 
 /* Contact form styling */
 .form-control{
-  width: 80%;
+  width: 100%;
   padding: 5px;
   margin-top: 10px;
   border: 2px solid black;
@@ -506,6 +509,10 @@ iframe {
   margin-top: 3px;
   margin-bottom: 3px;
   width: 100%;
+}
+
+.formwrapper{
+  max-width: 95%;
 }
 
 /* Change footer padding for mobile */
