@@ -191,14 +191,15 @@ body{
   text-align: left;
 }
 .profile{
-  text-align: center !important;
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-.home-desktop{
-  display: inline-block;
+.profile img{
+  margin-right: 20px;
 }
-.home-mobile{
-  display: none;
-}
+
 .desktop-header{
   display: block;
 }
@@ -208,12 +209,6 @@ body{
 .gallery{
   margin-top:-40px;
   padding-bottom: 10px;
-}
-.home-desktop{
- display: inline-block;
-}
-.home-mobile{
-  display: none;
 }
 
 .footer{
@@ -464,12 +459,6 @@ body{
   /* Centralise elements */
   text-align: center;
 }
-.home-desktop{
-  display: none;
-}
-.home-mobile{
-  display: inline-block;
-}
 iframe {
   aspect-ratio: 16 / 9;
   height: auto;
@@ -509,6 +498,17 @@ iframe {
   margin-top: 3px;
   margin-bottom: 3px;
   width: 100%;
+}
+.profile{
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile img{
+  width: 90%;
+  float: none;
+  padding-right: 0px;
 }
 
 .formwrapper{
