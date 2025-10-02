@@ -262,11 +262,10 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 40%;
+  max-width: 85%;
   position: relative;
   top: 0px;
   margin: auto;
-  margin-left: 19%;
 }
 
 /* The dots/bullets/indicators */
@@ -332,6 +331,15 @@ iframe
   {
     margin-left: 8px;
   }
+
+.desktop{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -557,8 +565,16 @@ iframe {
 .slideshow-container {
   max-width: 100%;
   top: 0;
-  margin-left: auto;
 }
+
+.desktop{
+  display: none;
+}
+
+.mobile{
+  display: block;
+}
+
 
 /* Change footer padding for mobile */
 .footer{
