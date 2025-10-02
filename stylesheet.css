@@ -262,10 +262,11 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50%;
+  max-width: 40%;
   position: relative;
-  top: -30px;
+  top: 0px;
   margin: auto;
+  margin-left: 19%;
 }
 
 /* The dots/bullets/indicators */
@@ -556,6 +557,7 @@ iframe {
 .slideshow-container {
   max-width: 100%;
   top: 0;
+  margin-left: auto;
 }
 
 /* Change footer padding for mobile */
