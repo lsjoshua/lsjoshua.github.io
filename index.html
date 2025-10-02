@@ -4,7 +4,7 @@
 		<!--Page metadata-->
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Josh Lee | Photography</title>
+		<title>Josh Lee | Photographer</title>
 		<link rel="icon" type="image/x-icon" src="favicon.ico?">
 		<link rel="stylesheet" href="stylesheet.css">
 		<!--Google Fonts-->
@@ -27,9 +27,9 @@
 		<p><a href="./video"><b>Video</b></a></p>
 		<p><a href="./contact"><b>Contact</b></a></p><br>
 		<!--SNS icons-->
-		<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
-		<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
-		<a href="https://pale-star.bandcamp.com/" target="_blank"><img class="sns-icon" src="./icons/bandcamp.png"></a>
+			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
+			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
+			<a href="https://pale-star.bandcamp.com/" target="_blank"><img class="sns-icon" src="./icons/bandcamp.png"></a>
 	</div>
 </div>
 	<!--MOBILE MENU-->
@@ -63,16 +63,31 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="right">
-		<div class="profile">
- 		  <img width=100% src="./profile.jpg"><br>
- 		  <p5>Photographer from the UK, based in Tokyo. Shooting <a href="./live"><b>live music</b></a>, <a href="./landscape"><b>landscapes</b> and <a href="./street"><b>places</b></a>.<br><br>
- 		  イギリス出身、東京を拠点に活動しており写真家です。<a href="./live"><b>ライブ</b></a>、<a href="./landscape"><b>風景</b> や<a href="./street"><b>ストリートスナップ</b></a>などを撮影します。<br><br>
- 		  <a href="contact"><b>Send me a message!</b></a>	
- 		  </p>
- 		</div>
+		<!--SLIDESHOW-->
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+  			<img src="./photos/live/live13.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+  			<img src="photos/street/street15.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img src="photos/landscape/landscape15.jpg" style="width:100%">
+			</div>
+		</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
 </div>
 	</div>
-</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<p3>© <script>document.write(new Date().getFullYear())</script> Joshua Lee</p3>
+			</div>
+		</footer>
 <script>
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 var dropdown = document.getElementsByClassName("dropdown-btn");
@@ -117,5 +132,27 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-</body>
+<!--Slideshow script-->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+	</body>
 </html>
