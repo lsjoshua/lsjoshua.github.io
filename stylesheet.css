@@ -191,12 +191,16 @@ body{
   text-align: left;
 }
 .profile{
-  width: 40%;
-  text-align: center;
+  display: inline-block;
+  width: 70%;
+  text-align: right;
   margin-left: auto;
   margin-right: auto;
+
 }
 .profile img{
+  float: left;
+  width: 300px;
   margin-right: 20px;
 }
 
