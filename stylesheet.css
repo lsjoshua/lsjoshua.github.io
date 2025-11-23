@@ -4,154 +4,146 @@ html {
 
 
 /* Fonts */
-.cormorant-garamond-light {
-  font-family: "Cormorant Garamond", serif;
+.rubik-glitch-regular {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
   font-style: normal;
 }
 
-.cormorant-garamond-regular {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
-.cormorant-garamond-medium {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
   font-style: normal;
 }
 
-.cormorant-garamond-semibold {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
   font-style: normal;
 }
 
-.cormorant-garamond-bold {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-style: normal;
 }
 
-.cormorant-garamond-light-italic {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
   font-style: italic;
 }
 
-.cormorant-garamond-regular-italic {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: italic;
 }
 
-.cormorant-garamond-medium-italic {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 500;
   font-style: italic;
 }
 
-.cormorant-garamond-semibold-italic {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 600;
   font-style: italic;
 }
 
-.cormorant-garamond-bold-italic {
-  font-family: "Cormorant Garamond", serif;
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 700;
   font-style: italic;
 }
-
-.noto-serif-jp-<uniquifier> {
-  font-family: "Noto Serif JP", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 
 /* Text */
-h1 { /* Used for name in header */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 22px;
-  color: #000000;
+h1 { /* Name header */
+  font-family: "Rubik Glitch", system-ui;
+  font-size: 25px;
+  color: #ffffff;
   line-height: 1.5;
   display: inline;
   }
 h1:hover{
   opacity: 0.8;
 }
-h2 { /* Used on photo page for project names */
-  font-family: "Cormorant Garamond", "Noto Serif JP", serif;
-  font-size: 20px;
-  color: #000000;
-  line-height: 1.5;
-  display: inline;
-  }
-p { /* Used for generic text */
-  font-family: "Cormorant Garamond", "Noto Serif JP", serif;
-  font-size: 18px;
-  color: #000000;
+p { /* Generic text */
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  color: #ffffff;
   line-height: 1.5;
   }
-p2 { /* Used for name subtitle */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
-  color: #7a7a7a;
+p2 { /* Name subtitle */
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: #c7c7c7;
   line-height: 1.5;
   display: inline;
 }
 p3 { /* Used for footer text */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 14px;
-  color: #000000;
-}
-p4 { /* Used for menu text */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 22px;
-  color: #000000;
-  line-height: 1.5;
-  font-weight: bold;
-  }
-p5 { /* Used for generic Japanese text */
-  font-family: "Noto Serif JP", serif;
-  font-size: 16px;
-  color: #000000;
-  line-height: 1.5;
-  }
-p6 { /* Used for Chinese text */
-  font-family: "Noto Serif JP", serif;
-  font-size: 18px;
-  color: #000000;
-  line-height: 1.5;
-  }
-p.unlined{
-  text-decoration-line: none !important;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  color: #ffffff;
 }
 
 /* Link text colours */
 a:link {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 a:visited {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover {
-  color: #3d3d3d;
+  opacity: 0.9;
   text-decoration: none;
 }
 a:active {
-  color: #3d3d3d;
+  color: #d1d1d1;
   text-decoration: none;
 }
 
 /* Background */
 body{
-  background-color: #ffffff;
+  background-color: #141414;
 }
 /*Dark Theme - not done*
 body{
@@ -277,14 +269,14 @@ img {vertical-align: middle;}
   height: 1px;
   width: 1px;
   margin: 0 2px;
-  background-color: #ffffff;
+  background-color: #141414;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: #141414;
 }
 
 /* Fading animation */
@@ -303,16 +295,18 @@ img {vertical-align: middle;}
   width: 100%;
   padding: 5px;
   margin-top: 10px;
-  border: 2px solid black;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 16px;
+  border: 1px solid white;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  background-color: #141414;
+  color: white;
 }
 .button{
-  background-color: #FFFFFF;
+  background-color: #141414;
   border: none;
-  color: black;
-  outline: 2px solid black;
-  box-shadow: 4px 4px black;
+  color: white;
+  outline: 1px solid white;
+  box-shadow: 4px 4px white;
   padding: 15px 32px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -320,8 +314,8 @@ img {vertical-align: middle;}
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
 }
 .button:hover {
   background-color: #f0f0f0;
@@ -372,8 +366,7 @@ iframe
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #FEFEFE;
-  background-color: #FEFEFE;
+  background-color: #141414;
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -389,9 +382,9 @@ iframe
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 25px;
-  color: #000000;
-  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "IBM Plex Mono", monospace;
   line-height: 1.5;
   display: block;
   transition: 0.2s;
@@ -406,8 +399,8 @@ iframe
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Cormorant Garamond", serif;
-  color: #000000;
+  font-family: "IBM Plex Mono", monospace;
+  color: #141414;
   display: block;
   border: none;
   background: none;
@@ -428,7 +421,7 @@ iframe
   font-size: 25px;
   line-height: 1.5;
   display: inline-block;
-
+  color: #ffffff;
   text-align: center;
   transition: 0.2s;
 }
@@ -437,6 +430,9 @@ iframe
   display: none;
   font-size: 16px;
   background-color: #f7f7f7;
+}
+.menu-mobile-btn{
+  color: #ffffff;
 }
 
 .dropdown-container-mobile-link{
@@ -474,7 +470,7 @@ body{
   margin-top: -10px;
   padding-top: 15px;
   z-index: 100;
-  background-color: #ffffff;
+  background-color: #141414;
 }
 .mobile-title{
   float: left;
@@ -513,7 +509,7 @@ body{
 iframe {
   aspect-ratio: 16 / 9;
   height: auto;
-  width: 98%;
+  width: 95%;
   margin: 0px auto;
 }
 .gallery{
@@ -577,6 +573,9 @@ iframe {
 
 .mobile{
   display: block;
+}
+.sns-icon{
+  width: 40px;
 }
 
 
