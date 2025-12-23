@@ -4,126 +4,72 @@ html {
 
 
 /* Fonts */
-.rubik-glitch-regular {
-  font-family: "Rubik Glitch", system-ui;
-  font-weight: 400;
+.cormorant-garamond-<uniquifier> {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
-.ibm-plex-mono-thin {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.ibm-plex-mono-extralight {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.ibm-plex-mono-light {
-  font-family: "IBM Plex Mono", monospace;
+.cormorant-sc-light {
+  font-family: "Cormorant SC", serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.ibm-plex-mono-regular {
-  font-family: "IBM Plex Mono", monospace;
+.cormorant-sc-regular {
+  font-family: "Cormorant SC", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.ibm-plex-mono-medium {
-  font-family: "IBM Plex Mono", monospace;
+.cormorant-sc-medium {
+  font-family: "Cormorant SC", serif;
   font-weight: 500;
   font-style: normal;
 }
 
-.ibm-plex-mono-semibold {
-  font-family: "IBM Plex Mono", monospace;
+.cormorant-sc-semibold {
+  font-family: "Cormorant SC", serif;
   font-weight: 600;
   font-style: normal;
 }
 
-.ibm-plex-mono-bold {
-  font-family: "IBM Plex Mono", monospace;
+.cormorant-sc-bold {
+  font-family: "Cormorant SC", serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.ibm-plex-mono-thin-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 100;
-  font-style: italic;
-}
 
-.ibm-plex-mono-extralight-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.ibm-plex-mono-light-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.ibm-plex-mono-regular-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ibm-plex-mono-medium-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.ibm-plex-mono-semibold-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.ibm-plex-mono-bold-italic {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-}
 
 /* Text */
 h1 { /* Name header */
-  font-family: "Rubik Glitch", system-ui;
-  font-size: 25px;
+  font-family: "Cormorant SC", serif;
+  font-size: 26px;
   color: #141414;
   line-height: 1.5;
   display: inline;
   }
-h1:hover{
-  opacity: 0.8;
-}
 p { /* Generic text */
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
   color: #141414;
   line-height: 1.5;
   }
 p2 { /* Name subtitle */
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 13px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
   color: #c7c7c7;
   line-height: 1.5;
   display: inline;
 }
 p3 { /* Used for footer text */
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 12px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
   color: #141414;
 }
 
-/* Link text colours */
+/* Link text */
 a:link {
   color: #141414;
   text-decoration: none;
@@ -133,11 +79,15 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  opacity: 0.9;
-  text-decoration: none;
+  opacity: 0.8;
+  text-decoration: underline;
 }
 a:active {
   color: #d1d1d1;
+  text-decoration: none;
+}
+
+.noline a{
   text-decoration: none;
 }
 
@@ -149,8 +99,6 @@ body{
 background{
   width: 100%;
   height: 100%;
-  
-  
 }
 
 /* Layout */
@@ -187,14 +135,14 @@ background{
 .profile{
   display: inline-block;
   width: 70%;
-  text-align: right;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
 
 }
 .profile img{
   float: left;
-  width: 300px;
+  width: 400px;
   margin-right: 20px;
 }
 
@@ -207,6 +155,7 @@ background{
 .gallery{
   margin-top:-40px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .footer{
@@ -298,8 +247,8 @@ img {vertical-align: middle;}
   padding: 5px;
   margin-top: 10px;
   border: 2px solid black;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
   background-color: #fcfcfc;
   color: black;
 }
@@ -316,8 +265,8 @@ img {vertical-align: middle;}
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 14px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
 }
 .button:hover {
   background-color: #f0f0f0;
@@ -387,7 +336,7 @@ iframe
   text-decoration: none;
   font-size: 24px;
   color: #141414;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Cormorant SC", serif;
   line-height: 1.5;
   display: block;
   transition: 0.2s;
@@ -402,7 +351,7 @@ iframe
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Cormorant SC", serif;
   color: #141414;
   background-image: url(./noise.svg);
   display: block;
@@ -467,7 +416,7 @@ body{
 .mobile-header{
   display: block;
   margin-left: 0px;
-  margin-right: 5px;
+  margin-right: 0px;
   padding-bottom: 35px;
   position: sticky;
   top: 0;
@@ -514,7 +463,7 @@ body{
 iframe {
   aspect-ratio: 16 / 9;
   height: auto;
-  width: 95%;
+  width: 98%;
   margin: 0px auto;
 }
 .gallery{
