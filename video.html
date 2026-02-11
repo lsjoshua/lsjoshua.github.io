@@ -4,7 +4,7 @@
 		<!--Page metadata-->
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Josh Lee | Photographer</title>
+		<title>Joshua Lee | Video</title>
 		<link rel="icon" type="image/x-icon" src="favicon.ico?">
 		<link rel="stylesheet" href="stylesheet.css">
 		<!--Google Fonts-->
@@ -19,7 +19,7 @@
 	<div class="left">
 		<div class="noline">
 		<a href="./"><h1>Josh Lee</h1><br></a>
-		<p2>Tokyo-based photographer</p2></a></div>
+		<a href="./"><p2>Tokyo-based photographer</p2></a><br><br></div>
 		<p><a href="./index">Photo</a><br>
 		<a href="./video">Video</a><br>
 		<a href="./bio">About</a><br>
@@ -27,7 +27,7 @@
 		<!--SNS icons-->
 			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
 			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
-	</div>
+		</div>
 </div>
 	<!--MOBILE MENU-->
 	<div class="mobile-header">
@@ -35,12 +35,12 @@
 			<div id="myNav" class="overlay">
   				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   				<div class="overlay-content">
-  			<p>
+  			<p4><b>
   			<a href="./index">Photo</a>
 				<a href="./video">Video</a>
 				<a href="./bio">About</a>
 				<a href="./contact">Contact</a>
-  			</p>
+  			</b></p4>
   			<!--SNS icons-->
   			<div class="mobile-icons">
 			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
@@ -59,27 +59,18 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="right">
-		<div class="gallery-row">
-  		<div class="gallery-column">
- 		    <img src="photos/heavyrocks/heavyrocks1.jpg">
- 		    <img src="photos/onland/onland4.jpg">
- 		    <img loading="lazy" src="photos/farshores/farshores14.jpg">
- 		    <img loading="lazy" src="photos/farshores/farshores6.jpg">
- 		    <img loading="lazy" src="photos/farshores/farshores5.jpg">
- 		    <img loading="lazy" src="photos/heavyrocks/heavyrocks10.jpg">
-  		</div>
-		  <div class="gallery-column">
-		    <img src="photos/farshores/farshores1.jpg">
-		    <img src="photos/heavyrocks/heavyrocks4.jpg">
-		    <img loading="lazy" src="photos/onland/onland12.jpg">
-		    <img loading="lazy" src="photos/farshores/farshores12.jpg">
-		    <img loading="lazy" src="photos/onland/onland8.jpg">
-		    <img loading="lazy" src="photos/farshores/farshores11.jpg">
-		    <img loading="lazy" src="photos/onland/onland10.jpg">
-		    <img loading="lazy" src="photos/heavyrocks/heavyrocks11.jpg">    
-		  </div>
-</div>
-<br>
+				<!--Looprider Mod-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/vOkGFEuCENg?si=afN4cos6jCNzP68q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-originen-cross-origin" allowfullscreen></iframe>
+				<!--EUGF Mod-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Ewc-zbiUe5Q?si=afN4cos6jCNzP68q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-originen-cross-origin" allowfullscreen></iframe>
+				<!--Looprider Ruby Room-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/wxe7aPlXWRg?si=afN4cos6jCNzP68q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-originen-cross-origin" allowfullscreen></iframe>
+				<!--World Citizen 1-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/nP_zP5N9ZCE?si=_cYoJo15rBaBmyK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-originen-cross-origin" allowfullscreen></iframe>
+				<!--World Citizen 2-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/SZvk9IgrYIE?si=_cYoJo15rBaBmyK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-originen-cross-origin" allowfullscreen></iframe>
+				<!--HETH-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/eyda5XaR6Ws?si=WNswXWlwy6NhKEST" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-originen-cross-origin" allowfullscreen></iframe>
 	</div>
 		</div>
 		<footer>
@@ -131,27 +122,5 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-<!--Slideshow script-->
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
-}
-</script>
-	</body>
+</body>
 </html>

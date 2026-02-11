@@ -138,12 +138,13 @@ background{
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-
 }
-.profile img{
+.profile-img-wrapper {
   float: left;
-  width: 400px;
   margin-right: 20px;
+}
+.profile-img-wrapper img{
+  width: 350px;
 }
 
 .desktop-header{
