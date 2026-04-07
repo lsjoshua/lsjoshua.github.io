@@ -39,7 +39,12 @@ html {
   font-weight: 700;
   font-style: normal;
 }
-
+.noto-serif-jp-<uniquifier> {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 
 /* Text */
@@ -63,11 +68,23 @@ p2 { /* Name subtitle */
   line-height: 1.5;
   display: inline;
 }
-p3 { /* Used for footer text */
+p3 { /* Footer text */
   font-family: "Cormorant Garamond", serif;
   font-size: 14px;
   color: #141414;
 }
+p4 { /* Menu text */
+  font-family: "Cormorant SC", serif;
+  font-size: 18px;
+  color: #141414;
+  line-height: 1.5;
+  }
+p5 { /* Japanese text */ 
+  font-family: "Noto Serif JP", serif;
+  font-size: 18px;
+  color: #141414;
+  line-height: 1.5;
+   }
 
 /* Link text */
 a:link {

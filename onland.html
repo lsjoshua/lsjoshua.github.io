@@ -4,13 +4,13 @@
 		<!--Page metadata-->
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Josh Lee | Contact</title>
+		<title>Josh Lee | Photographer</title>
 		<link rel="icon" type="image/x-icon" src="favicon.ico?">
 		<link rel="stylesheet" href="stylesheet.css">
 		<!--Google Fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
 	</head>
 	<body>
 	<div class="columns">
@@ -38,7 +38,7 @@
   				<div class="overlay-content">
   			<p>
   			<a href="./heavyrocks">Tokyo Heavy Rocks</a>
-  			<a href="./onland">On Land</a>
+				<a href="./onland">On Land</a>
   			<br>
 				<a href="./contact">Contact</a>
   			</p>
@@ -60,26 +60,34 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="right">
-		<div class="formwrapper">
-					<p>Feel free to use the form below or contact me via Instagram if you'd like to get in touch about shooting an event, show, brand, or otherwise. Looking forward to hearing from you!</p>
-					<p>イベント、ライブ、ブランド撮影など、様々な撮影についてお問い合わせいただく場合は、下記のフォームにご記入ください。またはSNSでもお気軽にご連絡ください。ご連絡をお待ちしております！</p>
-			  		<form target="_blank" action="https://formsubmit.co/fbdcee1ba7a9ef75511f8f1981b9bade" method="POST">
-  			  		<div class="form-group">
-      					<div class="form-row">
-        					<div class="col">
-         	 					<input type="text" name="name" class="form-control" placeholder="Full Name" required>
-        					</div>
-        				<div class="col">
-          		<input type="email" name="email" class="form-control" placeholder="Email Address" required>
-        		</div>
-      		</div>
-   		 	</div>
-    	<div class="form-group">
-      	<textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-   	 	</div>
-    	<button type="submit" class="button">Send</button>
-  	</form>
-		</div>
+		<div class="gallery">
+		<h1>On Land</h1>
+		<p><i>2018-2023</i><br>
+		Photos made during a past life in England</p>
+		<div class="gallery-row">
+  		<div class="gallery-column">
+ 		   <img src="photos/onland/onland1.jpg">
+		    <img loading="lazy"src="photos/onland/onland4.jpg">
+		    <img loading="lazy"src="photos/onland/onland23.jpg">
+		    <img loading="lazy"src="photos/onland/onland8.jpg">
+		    <img loading="lazy"src="photos/onland/onland19.jpg">
+		    <img loading="lazy"src="photos/onland/onland9.jpg">
+		    <img loading="lazy"src="photos/onland/onland11.jpg">
+		    <img loading="lazy"src="photos/onland/onland2.jpg">
+  		</div>
+		  <div class="gallery-column">
+		    <img src="photos/onland/onland3.jpg">
+		    <img loading="lazy"src="photos/onland/cots-3.jpg">
+		    <img loading="lazy"src="photos/onland/onland5.jpg">
+		    <img loading="lazy"src="photos/onland/onland22.jpg">
+		    <img loading="lazy"src="photos/onland/onland7.jpg">
+		    <img loading="lazy"src="photos/onland/onland12.jpg">
+		    <img loading="lazy"src="photos/onland/onland17.jpg">
+		    <img loading="lazy"src="photos/onland/onland21.jpg">
+		    <img loading="lazy"src="photos/onland/onland10.jpg">    
+		  </div>
+</div>
+<br>
 	</div>
 		</div>
 		<footer>
@@ -131,5 +139,27 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-</body>
+<!--Slideshow script-->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+}
+</script>
+	</body>
 </html>
