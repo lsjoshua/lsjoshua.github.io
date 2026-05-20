@@ -4,84 +4,57 @@ html {
 
 
 /* Fonts */
-.cormorant-garamond-<uniquifier> {
-  font-family: "Cormorant Garamond", serif;
+.epilogue-<uniquifier> {
+  font-family: "Epilogue", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-.cormorant-sc-light {
-  font-family: "Cormorant SC", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.cormorant-sc-regular {
-  font-family: "Cormorant SC", serif;
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
-  font-style: normal;
-}
-
-.cormorant-sc-medium {
-  font-family: "Cormorant SC", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.cormorant-sc-semibold {
-  font-family: "Cormorant SC", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.cormorant-sc-bold {
-  font-family: "Cormorant SC", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.noto-serif-jp-<uniquifier> {
-  font-family: "Noto Serif JP", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
 
 /* Text */
 h1 { /* Name header */
-  font-family: "Cormorant SC", serif;
-  font-size: 26px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px;
   color: #141414;
   line-height: 1.5;
   display: inline;
   }
 p { /* Generic text */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
   color: #141414;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   }
 p2 { /* Name subtitle */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
   color: #adadad;
   line-height: 1.5;
   display: inline;
+  letter-spacing: 0.03em;
 }
 p3 { /* Footer text */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 14px;
   color: #141414;
 }
 p4 { /* Menu text */
-  font-family: "Cormorant SC", serif;
-  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
   color: #141414;
   line-height: 1.5;
+  letter-spacing: 0.05em;
   }
 p5 { /* Japanese text */ 
-  font-family: "Noto Serif JP", serif;
-  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 17px;
   color: #141414;
   line-height: 1.5;
    }
@@ -96,11 +69,10 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  opacity: 0.8;
   text-decoration: underline;
 }
 a:active {
-  color: #d1d1d1;
+  color: #141414;
   text-decoration: none;
 }
 
@@ -110,8 +82,8 @@ a:active {
 
 /* Background */
 body{
-  background-color: #fcfcfc;
-  background-image: url(./noise.svg);
+  background-color: #fafafa;
+ 
 }
 background{
   width: 100%;
@@ -138,13 +110,14 @@ background{
 }
 .left{
   position: fixed;
-  width: 200px;
+  width: 220px;
+  margin-top: 15px;
   margin-left: 25px;
   text-align: left;
 }
 .right{
   width: 70%;
-  margin-left: 300px;
+  margin-left: 250px;
   padding-left: 50px;
   padding-top: 40px;
   text-align: left;
@@ -161,9 +134,8 @@ background{
   margin-right: 20px;
 }
 .profile-img-wrapper img{
-  width: 350px;
+  width: 400px;
 }
-
 .desktop-header{
   display: block;
 }
@@ -174,6 +146,11 @@ background{
   margin-top:-40px;
   padding-bottom: 10px;
   text-align: center;
+}
+.gallery-text{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer{
@@ -213,7 +190,7 @@ background{
 }
 .sns-icon{
   opacity: 1;
-  width: 30px;
+  width: 28px;
   vertical-align: middle;
   transform: translate(-8%, -8%);
 }
@@ -238,14 +215,14 @@ img {vertical-align: middle;}
   height: 1px;
   width: 1px;
   margin: 0 2px;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #fcfcfc;
+  background-color: #fafafa;
 }
 
 /* Fading animation */
@@ -265,13 +242,13 @@ img {vertical-align: middle;}
   padding: 5px;
   margin-top: 10px;
   border: 2px solid black;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 16px;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   color: black;
 }
 .button{
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   border: none;
   color: black;
   outline: 2px solid black;
@@ -283,7 +260,7 @@ img {vertical-align: middle;}
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 16px;
 }
 .button:hover {
@@ -335,7 +312,7 @@ iframe
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   background-image: url(./noise.svg);
   overflow-y: hidden;
   transition: 0.5s;
@@ -352,9 +329,9 @@ iframe
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   color: #141414;
-  font-family: "Cormorant SC", serif;
+  font-family: "Epilogue", sans-serif;
   line-height: 1.5;
   display: block;
   transition: 0.2s;
@@ -369,7 +346,7 @@ iframe
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Cormorant SC", serif;
+  font-family: "Epilogue", sans-serif;
   color: #141414;
   background-image: url(./noise.svg);
   display: block;
@@ -441,7 +418,7 @@ body{
   margin-top: -10px;
   padding-top: 15px;
   z-index: 100;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   background-image: url(./noise.svg);
 }
 .mobile-title{
@@ -525,9 +502,14 @@ iframe {
   margin-right: auto;
 }
 .profile img{
-  width: 90%;
+  width: 100%;
   float: none;
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 0px;
+}
+.profile-img-wrapper{
+  margin-right: 0px;
 }
 
 .formwrapper{
@@ -537,6 +519,11 @@ iframe {
 .slideshow-container {
   max-width: 100%;
   top: 0;
+}
+.gallery-text{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .desktop{
