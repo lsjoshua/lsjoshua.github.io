@@ -43,18 +43,18 @@
   			<p>
   			<a href="./index">Photo</a>
 				<a href="./bio">About</a>
+				<a href="./contact">Contact</a>
   			</p>
   			<!--SNS icons-->
   			<div class="mobile-icons">
 			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
 			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
 		</div>
-			<p><a href="mailto:contact@joshlee.photo"><b>contact@joshlee.photo</b></a></p>
 	</div>
 	</div>
 			<!--Title-->
 			<div class="mobile-title">
-			<a class="noline" href="./"><h1>JOSH LEE</h1><br>
+			<a class="noline" href="./"><h1>Josh Lee</h1><br>
 			<p2>Tokyo-based photographer</p2></a></div>
 			<div class ="menu-mobile">
 			<span class="menu-mobile-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
@@ -63,36 +63,28 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="content">
-		<div class="gallery-row">
-  		<div class="gallery-column">
- 		    <img src="photos/heavyrocks2.jpg">
- 		    <img src="photos/heavyrocks8.jpg">
- 		    <img loading="lazy" src="photos/heavyrocks11.jpg">
- 		    <img loading="lazy" src="photos/lnb1.jpg">
- 		    <img loading="lazy" src="photos/farshores5.jpg">
- 		    <img loading="lazy" src="photos/cots-3.jpg">
- 		    <img loading="lazy" src="photos/farshores1.jpg">
- 		    <img loading="lazy" src="photos/landscape15.jpg">
-  		</div>
-  		<div class="gallery-column">
- 		    <img src="photos/heavyrocks1.jpg">
- 		    <img src="photos/heavyrocks7.jpg">
- 		    <img loading="lazy" src="photos/lnb7.jpg">
- 		    <img loading="lazy" src="photos/strata3.jpg">
- 		    <img loading="lazy" src="photos/onland25.jpg">
- 		    <img loading="lazy" src="photos/onland10.jpg">
- 		    <img loading="lazy" src="photos/onland9.jpg">
-  		</div>
-		  <div class="gallery-column">
-		    <img src="photos/heavyrocks3.jpg">
-		    <img src="photos/heavyrocks4.jpg">
-		    <img loading="lazy" src="photos/DSCF1640-2.jpg">
-		    <img loading="lazy" src="photos/love1.jpg">
-		    <img loading="lazy" src="photos/onland8.jpg">
-		    <img loading="lazy" src="photos/onland12.jpg">
-		    <img loading="lazy" src="photos/farshores14.jpg">
-		  </div>
-</div>
+		<div class="gallery">
+		<!--Looprider: LOVE-->
+		<div class="gallery-text">
+		<p><b>Looprider: "The Making of LOVE"</b><br>
+		<i>2025-2026</i><br>
+		Short documentary film chronicling the creation of Tokyo-based heavy rock band Looprider's 2026 album, <i>LOVE</i></p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/3a3xYHLh4_M?si=cpyZzvgNQfjkwi7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p><i>Credits: camera, interview, edit<br>Made with <u><a target="blank" href="https://mattschley.com/">Matt Schley</a></u> (camera B, audio, and lighting)</i></p>
+		</div>
+		<!--Tokyo Live Videos-->
+		<div class="gallery-text">
+		<p><b>Other video work</b><br>
+		<i>2025-present</i><br>
+		Live videos for bands based in Tokyo</p>
+		<!--SAISA-->
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/nP_zP5N9ZCE?si=ajo700r6qtq2Ol7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+		<!--LPRD MOD-->
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/vOkGFEuCENg?si=NIzlmUjDvFIu9gMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+		<!--HETH-->
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/SkvI_HYjw5s?si=C95gi57BM-d5L-Dd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+	</div>
 <br>
 	</div>
 		</div>
@@ -143,6 +135,28 @@ function openNav() {
 }
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<!--Slideshow script-->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
 }
 </script>
 	</body>
