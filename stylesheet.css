@@ -430,16 +430,36 @@ iframe {
   max-width: 100%;
 }
 
-.gallery {
+.gallery{
+  margin-top: 0px;
+  padding-bottom: 10px;
+  max-width: 100%;
+}
+.gallery-column {
+  flex: 25%;
+  min-width: 100%;
+  padding: 0 0px;
+}
+.gallery-column img {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.gallery-row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  max-width: 97%;
-  padding: 0 0px;
-  margin: auto;
 }
 
-.gallery img {
+/* Create two equal columns that sit next to each other */
+.gallery-column {
+  flex: 50%;
+  width: 100%;
+  padding: 0 0px;
+}
+
+.gallery-column img {
   margin-top: 3px;
   margin-bottom: 3px;
   width: 100%;
