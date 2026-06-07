@@ -139,8 +139,10 @@ body{
   margin-right: auto;
 }
 iframe{
-  display: block;
-  margin: 0 auto;
+  margin: 0px auto;
+}
+.video-text iframe{
+  margin-left: -8%;
 }
 
 .profile-wrapper{
@@ -428,6 +430,9 @@ iframe {
   margin-top: 0px;
   padding-bottom: 10px;
   max-width: 100%;
+}
+.video-text iframe{
+  margin-left: 0;
 }
 
 .gallery{
