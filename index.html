@@ -64,67 +64,59 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="content">
-		<div class="gallery-row">
+		<!--Image Gallery-->
+		<div class="gallery">
+			<div class="gallery-row">
   		<div class="gallery-column">
- 		    <img src="photos/heavyrocks2.jpg">
- 		    <img src="photos/heavyrocks8.jpg">
- 		    <img loading="lazy" src="photos/heavyrocks11.jpg">
- 		    <img loading="lazy" src="photos/lnb1.jpg">
- 		    <img loading="lazy" src="photos/farshores5.jpg">
- 		    <img loading="lazy" src="photos/cots-3.jpg">
- 		    <img loading="lazy" src="photos/farshores1.jpg">
- 		    <img loading="lazy" src="photos/landscape15.jpg">
-  		</div>
+ 		    <img src="photos/heavyrocks2.jpg" data-index="0">
+ 		    <img src="photos/heavyrocks8.jpg" data-index="1">
+ 		    <img src="photos/heavyrocks11.jpg" data-index="2">
+ 		    <img src="photos/lnb1.jpg" data-index="3">
+ 		    <img src="photos/farshores5.jpg" data-index="4">
+ 		    <img src="photos/cots-3.jpg" data-index="5">
+ 		    <img src="photos/farshores1.jpg" data-index="6">
+ 		    <img src="photos/landscape15.jpg" data-index="7">
+ 		  </div>
   		<div class="gallery-column">
- 		    <img src="photos/heavyrocks1.jpg">
- 		    <img src="photos/heavyrocks7.jpg">
- 		    <img loading="lazy" src="photos/lnb7.jpg">
- 		    <img loading="lazy" src="photos/strata3.jpg">
- 		    <img loading="lazy" src="photos/onland25.jpg">
- 		    <img loading="lazy" src="photos/onland10.jpg">
- 		    <img loading="lazy" src="photos/onland9.jpg">
-  		</div>
-		  <div class="gallery-column">
-		    <img src="photos/heavyrocks3.jpg">
-		    <img src="photos/heavyrocks4.jpg">
-		    <img loading="lazy" src="photos/DSCF1640-2.jpg">
-		    <img loading="lazy" src="photos/love1.jpg">
-		    <img loading="lazy" src="photos/onland8.jpg">
-		    <img loading="lazy" src="photos/onland12.jpg">
-		    <img loading="lazy" src="photos/farshores14.jpg">
+ 		    <img src="photos/heavyrocks1.jpg" data-index="8">
+ 		    <img src="photos/heavyrocks7.jpg" data-index="9">
+ 		    <img src="photos/lnb7.jpg" data-index="10">
+ 		    <img src="photos/strata3.jpg" data-index="11">
+ 		    <img src="photos/onland25.jpg" data-index="12">
+ 		    <img src="photos/onland10.jpg" data-index="13">
+ 		    <img src="photos/onland9.jpg" data-index="14">
+ 		  </div>
+  		<div class="gallery-column">
+		    <img src="photos/heavyrocks3.jpg" data-index="15">
+		    <img src="photos/heavyrocks4.jpg" data-index="16">
+		    <img src="photos/DSCF1640-2.jpg" data-index="17">
+		    <img src="photos/love1.jpg" data-index="18">
+		    <img src="photos/onland8.jpg" data-index="19">
+		    <img src="photos/onland12.jpg" data-index="20">
+		    <img src="photos/farshores14.jpg" data-index="21">
 		  </div>
-</div>
-<br>
-	</div>
 		</div>
+		</div>
+		<br>
+		</div>
+		</div>
+    <!-- Lightbox -->
+    <div class="desktop">
+    <div class="lightbox">
+      <button class="close">&times;</button>
+      <button class="prev">&#8249;</button>
+      <img src="" alt="lightbox image" />
+      <button class="next">&#8250;</button>
+    </div>
+    <script src="script.js"></script>
+  </div>
 		<footer>
 			<div class="footer">
 				<p3>© <script>document.write(new Date().getFullYear())</script> Josh Lee</p3>
 			</div>
 		</footer>
 <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-<script>
+/* MOBILE MENU SCRIPT */
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
 var i;
@@ -146,5 +138,5 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-	</body>
+</body>
 </html>
