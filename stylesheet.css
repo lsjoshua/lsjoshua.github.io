@@ -135,11 +135,16 @@ body{
 .video-text{
   max-width: 40%;
   margin-top: 50px;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
-iframe{
-  margin: 0px auto;
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
 }
 
 .profile-wrapper{
