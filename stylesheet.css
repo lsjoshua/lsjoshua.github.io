@@ -25,6 +25,13 @@ h1 { /* Name header */
   line-height: 1.5;
   display: inline;
   }
+h2 { /* Blog header */
+  font-family: "Archivo Black", sans-serif;
+  font-size: 22px;
+  color: #141414;
+  line-height: 1.5;
+  display: inline;
+  }
 p { /* Generic text */
   font-family: "Epilogue", sans-serif;
   font-size: 15px;
@@ -83,43 +90,43 @@ a:active {
 
 /* Background */
 body{
-  background-color: #fafafa;
+  background-color: #ffffff;
   margin: 0;
 }
 
 /* Layout */
 .desktop-header{
   display: flex;
-  max-width: 80%;
+  max-width: 100%;
   box-sizing: border-box;
   top: 0;
   justify-content: space-between;
   position: sticky;
   z-index: 100; /* Keeps it above overlapping content */
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-bottom: -17px;
-  background-color: #fafafa;
-  padding-bottom: 20px;
+  background-color: #ffffff;
+  padding-bottom: 8px;
 }
 .header-title-link{
   display: inline-block;
   margin: 0;
-  margin-top: 18px;
+  margin-top: 3px;
 }
 .header-page-link{
   display: inline-block;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .sns-wrapper{
   display: inline-block;
   float: right;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .content{
   display: block;
-  width: 80%;
+  width: 99.5%;
   padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -150,7 +157,7 @@ iframe {
 .profile-wrapper{
   margin-top: 40px;
   columns: 2;
-  max-width: 80%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -162,10 +169,47 @@ iframe {
 }
 .profile-img-wrapper img{
   max-width: 75%;
-  outline: 2px solid black;
-  box-shadow: 5px 5px black;
+  /*outline: 2px solid black;
+  box-shadow: 5px 5px black;*/
   vertical-align: center;
   margin: 5%;
+}
+.blog-wrapper{
+  margin-top: 40px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.blog-wrapper img{
+  width: 100%;
+}
+.blog-link-wrapper{
+  display: block;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  border-bottom: black solid 1px;
+}
+.blog-link-wrapper-last{
+  display: block;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.blog-post-wrapper{
+  margin-top: 40px;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.blog-post-wrapper img{
+  width: 100%;
+}
+.blog-post-wrapper p{
+  text-indent: 4rem;
+  text-align: left;
 }
 .footer{
   display: block;
@@ -286,7 +330,7 @@ iframe {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #fafafa;
+  background-color: #ffffff;
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -386,7 +430,7 @@ body{
   margin-top: -10px;
   padding-top: 15px;
   z-index: 100;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .mobile-title{
   float: left;
@@ -494,7 +538,7 @@ iframe {
   margin-right: auto;
 }
 .profile-wrapper{
-  margin-top: 40px;
+  margin-top: 0px;
   columns: 1;
   max-width: 90%;
   margin-left: auto;
@@ -516,6 +560,19 @@ iframe {
 }
 .sns-icon{
   width: 40px;
+}
+.blog-link-wrapper{
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-bottom: black solid 1px;
+}
+.blog-link-wrapper-last{
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 /* Change footer padding for mobile */
