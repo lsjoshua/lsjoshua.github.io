@@ -4,38 +4,42 @@ html {
 
 
 /* Fonts */
-.cormorant-garamond-<uniquifier> {
-  font-family: "Cormorant Garamond", serif;
+.epilogue-<uniquifier> {
+  font-family: "Epilogue", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Text */
 h1 { /* Name header */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 25px;
   color: #141414;
   line-height: 1.5;
   display: inline;
   }
 h2 { /* Blog header */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Archivo Black", sans-serif;
   font-size: 22px;
   color: #141414;
   line-height: 1.5;
   display: inline;
   }
 p { /* Generic text */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
   color: #141414;
   line-height: 1.5;
   letter-spacing: 0.02em;
   }
 p2 { /* Name subtitle */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 14px;
   color: #adadad;
   line-height: 1.5;
@@ -43,20 +47,20 @@ p2 { /* Name subtitle */
   letter-spacing: 0.02em;
 }
 p3 { /* Footer text */
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 14px;
   color: #141414;
 }
 p4 { /* Menu text */
-  font-family: "Cormorant Garamond", serif;
-  font-size: 22px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
   font-weight: bold;
   color: #141414;
   line-height: 1.5;
   }
 p5 { /* Menu email */ 
-  font-family: "Cormorant Garamond", serif;
-  font-size: 22px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
   color: #141414;
   line-height: 1.5;
   display: inline;
@@ -167,7 +171,7 @@ iframe {
   /*outline: 2px solid black;
   box-shadow: 5px 5px black;*/
   vertical-align: center;
-  margin: 5%;
+  margin-top: 2%;
 }
 .blog-wrapper{
   margin-top: 40px;
