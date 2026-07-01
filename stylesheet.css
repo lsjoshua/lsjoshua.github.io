@@ -123,8 +123,8 @@ body{
   display: block;
   width: 99.5%;
   padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
 }
 .mobile-header{
   display: none;
@@ -230,7 +230,7 @@ iframe {
 }
 .gallery-column {
   flex: 40%;
-  max-width: 32%;
+  max-width: 32.79%;
   padding: 0 4px;
 }
 .gallery-column img {
