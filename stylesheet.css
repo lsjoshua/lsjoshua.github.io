@@ -347,7 +347,7 @@ iframe {
   text-decoration: none;
   font-size: 20px;
   color: #141414;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   line-height: 1.5;
   display: block;
   transition: 0.2s;
@@ -362,7 +362,7 @@ iframe {
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Epilogue", sans-serif;
   color: #141414;
   display: block;
   border: none;
