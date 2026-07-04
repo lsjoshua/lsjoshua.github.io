@@ -177,7 +177,7 @@ iframe {
 }
 .blog-wrapper{
   margin-top: 40px;
-  max-width: 80%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -200,7 +200,7 @@ iframe {
 }
 .blog-post-wrapper{
   margin-top: 40px;
-  max-width: 40%;
+  max-width: 30%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -236,7 +236,7 @@ iframe {
 }
 .gallery-column {
   flex: 40%;
-  max-width: 32.8%;
+  max-width: 32%;
   padding: 0 4px;
 }
 .gallery-column img {
