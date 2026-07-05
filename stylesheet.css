@@ -115,10 +115,9 @@ body{
 .header-page-link{
   display: inline-block;
   margin: 0 10px;
-  margin-top: 10px;
 }
 .header-left-wrapper{
-  float: left;
+  float: right;
 }
 .sns-wrapper{
   display: inline-block;
