@@ -4,14 +4,8 @@ html {
 
 
 /* Fonts */
-.geom-<uniquifier> {
-  font-family: "Geom", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.space-grotesk-<uniquifier> {
-  font-family: "Space Grotesk", sans-serif;
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -19,27 +13,27 @@ html {
 
 /* Text */
 h1 { /* Name header */
-  font-family: "Geom", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 21px;
   color: #141414;
   line-height: 1.0;
   display: inline;
   }
 h2 { /* Blog header */
-  font-family: "Geom", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 22px;
   color: #141414;
   line-height: 1.5;
   display: inline;
   }
 p { /* Generic text */
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 17px;
   color: #141414;
   line-height: 1.5;
   }
 p2 { /* Name subtitle */
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 14px;
   color: #adadad;
   line-height: 1.5;
@@ -47,19 +41,19 @@ p2 { /* Name subtitle */
   letter-spacing: 0.02em;
 }
 p3 { /* Footer text */
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 12px;
   color: #141414;
 }
 p4 { /* Menu text */
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
   color: #141414;
   line-height: 1.5;
   letter-spacing: 0.02em;
   }
 p5 { /* Menu email */ 
-  font-family: "Geom", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 17px;
   color: #141414;
   line-height: 1.5;
@@ -351,7 +345,7 @@ iframe {
   text-decoration: none;
   font-size: 20px;
   color: #141414;
-  font-family: "Geom", sans-serif;
+  font-family: "Playfair Display", serif;
   line-height: 1.5;
   display: block;
   transition: 0.2s;
@@ -366,7 +360,7 @@ iframe {
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Geom", sans-serif;
+  font-family: "Playfair Display", serif;
   color: #141414;
   display: block;
   border: none;
