@@ -91,7 +91,7 @@ body{
 /* Layout */
 .desktop-header{
   display: flex;
-  max-width: 79%;
+  max-width: 98%;
   box-sizing: border-box;
   top: 0;
   justify-content: space-between;
@@ -221,7 +221,7 @@ iframe {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  max-width: 80%;
+  max-width: 100%;
   padding: 0 4px;
   margin: auto;
 }
