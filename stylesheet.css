@@ -91,7 +91,7 @@ body{
 /* Layout */
 .desktop-header{
   display: flex;
-  max-width: 98%;
+  max-width: 98.5%;
   box-sizing: border-box;
   top: 0;
   justify-content: space-between;
