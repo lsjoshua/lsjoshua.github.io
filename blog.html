@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Page metadata-->
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Josh Lee | Photographer</title>
+		<link rel="icon" type="image/x-icon" src="favicon.ico?">
+		<link rel="stylesheet" href="stylesheet.css">
+		<!--Google Fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<!--DESKTOP MENU-->
+	<div class="desktop-header">
+		<div class="header-left-wrapper">
+		<div class="header-title-link">
+		<a href="./"><h2>JOSHUA LEE</h2></a>&emsp;<a href="./"></a></p4>
+		</div>
+		</div>
+		<!--SNS icons-->
+		<div class="sns-wrapper">
+		<div class="header-page-link">
+		<p4><a href="./">PHOTO</a></p4>
+		</div>
+		<div class="header-page-link">
+		<p4><a href="./video">VIDEO</a></p4>
+		</div>
+		<div class="header-page-link">
+		<p4><a href="./info">INFO</a></p4>
+		</div>
+		<div class="header-page-link">
+		<p4><a href="./blog">BLOG</a></p4>
+		</div>
+		<div class="header-page-link">
+		<p4><a href="mailto:contact@joshlee.photo">contact@joshlee.photo</a>&emsp;</p4>
+		</div>
+			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
+			<a href="https://bsky.app/profile/lsjosh.bsky.social" target="_blank"><img class="sns-icon" src="./icons/bsky.png"></a>
+			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
+	</div>
+</div>
+	<!--MOBILE MENU-->
+	<div class="mobile-header">
+			<div class="mobile-menu">
+			<div id="myNav" class="overlay">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<div class="overlay-content">
+  			<p>
+  			<a href="./">PHOTO</a>
+  			<a href="./video">VIDEO</a>
+				<a href="./info">INFO</a>
+				<a href="./blog">BLOG</a>
+  			</p>
+  			<!--SNS icons-->
+  			<div class="mobile-icons">
+			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
+			<a href="https://bsky.app/profile/lsjosh.bsky.social" target="_blank"><img class="sns-icon" src="./icons/bsky.png"></a>
+			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
+		</div>
+	</div>
+	</div>
+			<!--Title-->
+			<div class="mobile-title">
+			<a class="noline" href="./"><h1>JOSHUA LEE</h1><br></a></div>
+			<div class ="menu-mobile">
+			<span class="menu-mobile-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		</div>
+		</div>
+		</div>
+	<!--MAIN CONTENT-->
+	<div class="content">
+		<div class="blog-wrapper">
+		<!--#1 Taiwan-->
+		<div class="blog-link-wrapper-last">
+		<a href="./blog-taiwan">
+		<img src="./blog/taiwan-thumb.jpg"><br>
+		<p><b>Photo Diary: 12 Days in Taiwan</b><br>
+		09.07.2026<br>
+		A trip to Taipei and Tainan, shot on Ilford HP5 35mm film.
+		</p><br>
+		</div></a>
+		<br>
+		<!--Archive-->
+		<h2>Archive</h2>
+		<div class="blog-link-wrapper-last">
+		<a href="./blog-photo">
+		<p><b>04.09.2024:</b> Places in Perspective</p>
+		</a>
+		<a href="./blog-farshores">
+		<p><b>27.04.2024:</b> On Far Shores</p>
+		</a>
+		<a href="./blog-intro">
+		<p><b>18.03.2023:</b> An Intro of Sorts</p>
+		</a>
+		</div><br>
+	</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<p3>© <script>document.write(new Date().getFullYear())</script> Josh Lee</p3>
+			</div>
+		</footer>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<!--Slideshow script-->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+}
+</script>
+	</body>
+</html>
