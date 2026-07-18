@@ -172,6 +172,7 @@ body{
   /*outline: 2px solid black;
   box-shadow: 5px 5px black;*/
   vertical-align: center;
+  margin-top: 15%;
 }
 .music-wrapper{
   text-align: center;
@@ -577,7 +578,7 @@ iframe {
 .profile-img-wrapper img{
   max-width: 100%;
   margin-left: 0;
-  margin-top: 0;
+  margin-top: 3%;
 }
 .gallery img:hover{
   opacity: 1;
