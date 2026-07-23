@@ -275,7 +275,7 @@ body{
 
 .sns-icon{
   opacity: 1;
-  width: 28px;
+  width: 28px !important;
   vertical-align: middle;
   transform: translate(-8%, -8%);
 }
@@ -606,14 +606,14 @@ iframe {
 }
 .blog-link-wrapper{
   display: block;
-  width: 100%;
+  width: 90%;
   margin: auto;
   text-align: center;
   border-bottom: black solid 1px;
 }
 .blog-link-wrapper-last{
   display: block;
-  width: 100%;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
