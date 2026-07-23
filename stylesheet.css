@@ -42,7 +42,7 @@ p2 { /* Name subtitle */
 }
 p3 { /* Footer text */
   font-family: "Playfair Display", serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #141414;
 }
 p4 { /* Menu text */
@@ -154,10 +154,10 @@ body{
 }
 
 .profile-wrapper{
-  text-align: left;
+  text-align: center;
   columns: 2;
-  margin-top: 40px;
-  max-width: 70%;
+  margin-top: 50px;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -168,11 +168,11 @@ body{
   display: inline-block;
 }
 .profile-img-wrapper img{
-  max-width: 90%;
-  /*outline: 2px solid black;
-  box-shadow: 5px 5px black;*/
+  max-width: 100%;
+  outline: 2px solid black;
+  box-shadow: 5px 5px black;
   vertical-align: center;
-  margin-top: 15%;
+  margin-top: 0%;
 }
 .music-wrapper{
   text-align: center;
