@@ -151,6 +151,9 @@ body{
   height: auto;
   aspect-ratio: 16 / 9;
   display: block;
+  outline: 2px solid black;
+  box-shadow: 5px 5px black;
+  margin-bottom: 5px;
 }
 
 .profile-wrapper{
@@ -196,15 +199,8 @@ body{
   width: 40%;
   margin: auto;
   text-align: center;
-  border-bottom: black solid 1px;
 }
-.blog-link-wrapper-last{
-  display: block;
-  width: 40%;
-  margin: auto;
-  text-align: center;
-}
-.blog-link-wrapper-last img{
+.blog-link-wrapper img{
   outline: 2px solid black;
   box-shadow: 5px 5px black;
   vertical-align: center;
