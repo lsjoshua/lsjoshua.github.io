@@ -4,6 +4,12 @@ html {
 
 
 /* Fonts */
+.noto-serif-jp-<uniquifier> {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 .playfair-display-<uniquifier> {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -27,13 +33,13 @@ h2 { /* Blog header */
   display: inline;
   }
 p { /* Generic text */
-  font-family: "Playfair Display", serif;
-  font-size: 17px;
+  font-family: "Noto Serif JP", serif;
+  font-size: 16px;
   color: #141414;
   line-height: 1.5;
   }
 p2 { /* Name subtitle */
-  font-family: "Playfair Display", serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 14px;
   color: #adadad;
   line-height: 1.5;
@@ -41,7 +47,7 @@ p2 { /* Name subtitle */
   letter-spacing: 0.02em;
 }
 p3 { /* Footer text */
-  font-family: "Playfair Display", serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 14px;
   color: #141414;
 }
@@ -52,14 +58,6 @@ p4 { /* Menu text */
   line-height: 1.5;
   letter-spacing: 0.02em;
   }
-p5 { /* Menu email */ 
-  font-family: "Playfair Display", serif;
-  font-size: 17px;
-  color: #141414;
-  line-height: 1.5;
-  display: inline;
-  letter-spacing: 0.02em;
-   }
 
 /* Link text */
 a:link {
