@@ -606,13 +606,6 @@ iframe {
   width: 90%;
   margin: auto;
   text-align: center;
-  border-bottom: black solid 1px;
-}
-.blog-link-wrapper-last{
-  display: block;
-  width: 90%;
-  margin: auto;
-  text-align: center;
 }
 
 /* Change footer padding for mobile */
