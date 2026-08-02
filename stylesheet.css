@@ -526,6 +526,8 @@ iframe {
   margin-top: 0px;
   padding-bottom: 10px;
   max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
 }
 .video-text iframe{
   margin-left: 0;
