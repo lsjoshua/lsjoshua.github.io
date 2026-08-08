@@ -4,9 +4,10 @@ html {
 
 
 /* Fonts */
-.pirata-one-regular {
-  font-family: "Pirata One", system-ui;
-  font-weight: 400;
+.grenze-<uniquifier> {
+  font-family: "Grenze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -19,18 +20,29 @@ html {
 
 /* Text */
 h1 { /* Name header (mobile) */
-  font-family: "Pirata One", system-ui;
+  font-family: "Grenze", serif;
   font-size: 28px;
   color: #141414;
   line-height: 1.0;
   display: inline;
+  font-weight: 900;
   }
 h2 { /* Name header (desktop) */
-  font-family: "Pirata One", system-ui;
+  font-family: "Grenze", serif;
   font-size: 30px;
   color: #141414;
   line-height: 1.5;
   display: inline;
+  font-weight: 900;
+  }
+h3 { /* Blog title header */
+  font-family: "Grenze", serif;
+  font-size: 24px;
+  color: #141414;
+  line-height: 1;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: -10px;
   }
 p { /* Generic text */
   font-family: "Noto Serif JP", serif;
@@ -40,8 +52,9 @@ p { /* Generic text */
   }
 p2 { /* Subtitle */
   font-family: "Noto Serif JP", serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #141414;
+  opacity: 0.85;
   line-height: 1.5;
   display: inline;
   letter-spacing: 0.02em;
@@ -52,7 +65,7 @@ p3 { /* Footer text */
   color: #141414;
 }
 p4 { /* Menu text */
-  font-family: "Pirata One", system-ui;
+  font-family: "Grenze", serif;
   font-size: 24px;
   color: #141414;
   line-height: 1.5;
@@ -256,7 +269,7 @@ body{
 }
 .gallery img:hover{
   opacity: 0.9;
-  transition: 0.1;
+  transition: opacity 0.1s ease-in-out;
 }
 
 .gallery-row {
@@ -382,7 +395,7 @@ body{
   text-decoration: none;
   font-size: 30px;
   color: #141414;
-  font-family: "Pirata One", system-ui;
+  font-family: "Grenze", serif;
   font-weight: bold;
   line-height: 1.5;
   display: block;
@@ -398,7 +411,7 @@ body{
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Pirata One", system-ui;
+  font-family: "Grenze", serif;
   font-weight: bold;
   color: #141414;
   display: block;
