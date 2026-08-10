@@ -121,7 +121,7 @@ body{
 .header-title-link{
   display: inline-block;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 4px;
   margin-left: 5px;
 }
 .header-page-link{
@@ -152,6 +152,67 @@ body{
   margin-left: 15%;
   margin-right: 15%;
 }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container img{
+  filter: contrast(70%);
+  filter: brightness(70%);
+}
+.container h2{
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+}
+.container p{
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-35%, -50%);
+}
+.button{
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px black;
+  color: black;
+  outline: 3px solid white;
+  padding: 0 32px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Noto Serif JP", sans-serif;
+  font-size: 16px;
+}
+
+/* Photo link dropdown*/
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  transform: translate(-10px, 0px);
+  min-width: 130px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  padding: 5px 10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .mobile-header{
   display: none;
 }
@@ -180,6 +241,15 @@ body{
   box-shadow: 5px 5px black;
   margin-bottom: 5px;
   background-color: black;
+}
+.container-link{
+  justify-content: center;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.cotainer-link img{
+  width: 350px;
 }
 
 .profile-wrapper{
@@ -393,7 +463,7 @@ body{
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 28px;
   color: #141414;
   font-family: "Grenze", serif;
   font-weight: bold;
@@ -506,6 +576,9 @@ display: none;
 }
 .desktop-header{
   display: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 .content{
   display: block;
