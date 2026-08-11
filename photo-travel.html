@@ -87,53 +87,80 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="content">
-		<div class="video">
-		<!--Looprider: LOVE-->
-		<div class="video-text">
-		<iframe width="560" height="316" src="https://www.youtube.com/embed/3a3xYHLh4_M?si=cpyZzvgNQfjkwi7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, interview, edit<br>Made with <u><a target="blank" href="https://mattschley.com/">Matt Schley</a></u> (camera B, audio, lighting)</p><br>
-		<!--Tokyo Live Videos-->
-		<!--SAISA-->
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/nP_zP5N9ZCE?si=ajo700r6qtq2Ol7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, edit</p><br>
-		<!--LPRD-->
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/vOkGFEuCENg?si=8rE6LTpgrFSrATn5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, edit</p><br>
-		<!--HETH-->
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/SkvI_HYjw5s?si=ajo700r6qtq2Ol7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, edit</p>
+		<!--Desktop Gallery-->
+		<div class="desktop">
+		<h3>Travel & Street</h3>
+		<p>(2023-ongoing)<br>
+		Travel and street photography taken between Japan, Taiwan, and Hong Kong</p>
+		<div class="gallery">
+				<div class="gallery-column">
+				<img src="./photos/travel/hk.jpg" data-index="0">
+				<img src="./photos/travel/tw.jpg" data-index="1">
+				<img src="./photos/travel/koenji.jpg" data-index="2">
+				<img src="./photos/travel/yoyogi-street.jpg" data-index="3">
+				<img src="./photos/travel/tw3.jpg" data-index="4">
+				<img src="./photos/travel/hk2.jpg" data-index="5">
+				<img src="./photos/travel/asakusa.jpg" data-index="6">
+				<img src="./photos/travel/nara1.jpg" data-index="7">
+				<img src="./photos/travel/tw2.jpg" data-index="8">
+				<img src="./photos/travel/chichibu1.jpg" data-index="9">
+				<img src="./photos/travel/chichibu2.jpg" data-index="10">
+				<img src="./photos/travel/meiji.jpg" data-index="11">
+				<img src="./photos/travel/shibuya.jpg" data-index="12">
+				<img src="./photos/travel/ota1.jpg" data-index="13">
+				<img src="./photos/travel/ota2.jpg" data-index="14">
+		</div>
 		</div>
 	</div>
+		<!--Mobile Gallery-->
+		<div class="mobile">
+		<br>
+		<h3>Travel & Street</h3>
+		<p>(2023-ongoing)<br>
+		Travel and street photography taken between Japan, Taiwan, and Hong Kong</p>
+		<div class="gallery">
+				<div class="gallery-column">
+				<img src="./photos/travel/hk.jpg">
+				<img src="./photos/travel/tw.jpg">
+				<img src="./photos/travel/koenji.jpg">
+				<img src="./photos/travel/yoyogi-street.jpg">
+				<img src="./photos/travel/tw3.jpg">
+				<img src="./photos/travel/hk2.jpg">
+				<img src="./photos/travel/asakusa.jpg">
+				<img src="./photos/travel/nara1.jpg">
+				<img src="./photos/travel/tw2.jpg">
+				<img src="./photos/travel/chichibu1.jpg">
+				<img src="./photos/travel/chichibu2.jpg">
+				<img src="./photos/travel/meiji.jpg">
+				<img src="./photos/travel/shibuya.jpg">
+				<img src="./photos/travel/ota1.jpg">
+				<img src="./photos/travel/ota2.jpg">
+		</div>
+		</div>
 	</div>
 		</div>
+		</div>
+		</div>
+		<br>
+		</div>
+		</div>
+    <!-- Lightbox -->
+    <div class="desktop">
+    <div class="lightbox">
+      <button class="close">&times;</button>
+      <button class="prev">&#8249;</button>
+      <img src="" alt="lightbox image" />
+      <button class="next">&#8250;</button>
+    </div>
+    <script src="script.js"></script>
+  </div>
 		<footer>
 			<div class="footer">
 				<p3>© <script>document.write(new Date().getFullYear())</script> Joshua Lee</p3>
 			</div>
 		</footer>
 <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-<script>
+/* MOBILE MENU SCRIPT */
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
 var i;
@@ -155,27 +182,5 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-<!--Slideshow script-->
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
-}
-</script>
-	</body>
+</body>
 </html>

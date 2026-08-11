@@ -17,14 +17,19 @@
 	<div class="desktop-header">
 		<div class="header-left-wrapper">
 		<div class="header-title-link">
-		<a href="./"><h2>JOSHUA LEE</h2></a>&emsp;<a href="./"></a></p4>
+		<a href="./"><h2>JOSHUA LEE</h2></a>&emsp;<a href="./">
+		<p4>Tokyo-based photographer</p4></a>
 		</div>
 		</div>
 		<!--Links-->
 		<div class="sns-wrapper">
 		<div class="header-page-link">
-		<p4><a href="./"><b>PHOTO</b></a></p4>
-		</div>
+		<p4><div class="dropdown"><b>PHOTO</b></p4>
+		<div class="dropdown-content">
+		<a href="./photo-live">Bands & Events</a><br>
+		<a href="./photo-onland">On Land</a><br>
+  	<a href="./photo-travel">Travel & Street</a><br>
+		</div></div></div></p4>
 		<div class="header-page-link">
 		<p4><a href="./video"><b>VIDEO</b></a></p4>
 		</div>
@@ -48,11 +53,19 @@
   				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   				<div class="overlay-content">
   			<p>
-  			<a href="./"><b>PHOTO</b></a>
+  			<div class="sidenav-mobile">
+  			<button class="dropdown-btn-mobile"><b>&nbsp;&nbsp;&nbsp;&nbsp;PHOTO</b>
+  			</button>
+  			<div class="dropdown-container-mobile">
+  			<a href="./photo-live">Bands & Events</a>
+  			<a href="./photo-onland">On Land</a>
+  			<a href="./photo-travel">Travel & Street</a>
+  			</div>
   			<a href="./video"><b>VIDEO</b></a>
 				<a href="./about"><b>ABOUT</b></a>
 				<a href="./blog"><b>BLOG</b></a>
   			</p>
+  		</div>
   			<p>
   			<a href="mailto:contact@joshlee.photo">contact@joshlee.photo</a>
   			</p>
@@ -65,7 +78,8 @@
 	</div>
 			<!--Title-->
 			<div class="mobile-title">
-			<a class="noline" href="./"><h1>JOSHUA LEE<br></h1></a></div>
+			<a class="noline" href="./"><h1>JOSHUA LEE<br></h1>
+			<p4>Tokyo-based photographer</p4></a></div>
 			<div class ="menu-mobile">
 			<span class="menu-mobile-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 		</div>
@@ -73,102 +87,62 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="content">
-		<!--Desktop Gallery-->
+			<!--SLIDESHOW-->
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/onland/cots-2.jpg" style="width:100%">
+				<img class="mobile" src="./photos/onland/wycheroad-b.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/live/lprd1.jpg" style="width:100%">
+				<img class="mobile" src="./photos/live/lprd2-b.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/travel/hk.jpg" style="width:100%">
+				<img class="mobile" src="./photos/live/strata.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/live/rhakka.jpg" style="width:100%">
+				<img class="mobile" src="./photos/travel/tw.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/onland/peaks.jpg" style="width:100%">
+				<img class="mobile" src="./photos/travel/hakone.jpg" style="width:100%">
+			</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+	</div>
+		</div></div>
+		<!--Desktop
 		<div class="desktop">
-		<div class="gallery">
-			<div class="gallery-row">
-				<div class="gallery-column">
-				<img src="./photos/roccon.jpg" data-index="0">
-				<img src="./photos/lprd2.jpg" data-index="1">
-				<img src="./photos/cybercherry2.jpg" data-index="2">
-				<img src="./photos/strata.jpg" data-index="3">
-				<img src="./photos/street4.jpg" data-index="4">
-				<img src="./photos/doug.jpg" data-index="5">
-				<img src="./photos/cots-2.jpg" data-index="6">
-				<img src="./photos/malvern.jpg" data-index="7">
-				</div>
-				<div class="gallery-column">
-				<img src="./photos/ryotaro.jpg" data-index="8">
-				<img src="./photos/lsf.jpg" data-index="9">
-				<img src="./photos/lprd-portrait.jpg" data-index="10">
-				<img src="./photos/tw.jpg" data-index="11">
-				<img src="./photos/gate.jpg" data-index="12">
-				<img src="./photos/wycheroad.jpg" data-index="13">
-				</div>
-				<div class="gallery-column">
-				<img src="./photos/rhakka.jpg" data-index="14">
-				<img src="./photos/heth.jpg" data-index="15">
-				<img src="./photos/collapse.jpg" data-index="16">
-				<img src="./photos/mol.jpg" data-index="17">
-				<img src="./photos/asakusa.jpg" data-index="18">
-				<img src="./photos/meiji.jpg" data-index="19">
-				<img src="./photos/jinba.jpg" data-index="20">
-				</div>
-				<div class="gallery-column">
-				<img src="./photos/smhc2.jpg" data-index="21">
-				<img src="./photos/butoh1.jpg" data-index="22">
-				<img src="./photos/yenfor.jpg" data-index="23">
-				<img src="./photos/shibuya.jpg" data-index="24">
-				<img src="./photos/hk.jpg" data-index="25">
-				<img src="./photos/hillhead.jpg" data-index="26">
-				<img src="./photos/yarrow.jpg" data-index="27">
-				<img src="./photos/peaks.jpg" data-index="28">
-		</div>
-		</div>
-		</div>
+		<div class="container">
+	  <img src="photos/DSCF1289.png" style="width:100%;">
+	  <div class="centered"><h2>Photographer and videographer based in Tokyo</h2><br><br><br><br>
+	  <a href="./about"><button class="button"><p>Get in touch</p></button></div></a>
+</div>
 	</div>
-		<!--Mobile Gallery-->
+		Mobile
 		<div class="mobile">
-		<div class="gallery">
-			<div class="gallery-row">
-				<div class="gallery-column">
-				<img src="./photos/roccon.jpg">
-				<img src="./photos/lprd2.jpg">
-				<img src="./photos/rhakka.jpg">
-				<img src="./photos/heth.jpg">
-				<img src="./photos/collapse.jpg">
-				<img src="./photos/cybercherry2.jpg">
-				<img src="./photos/ryotaro.jpg">
-				<img src="./photos/lsf.jpg">
-				<img src="./photos/lprd-portrait.jpg">
-				<img src="./photos/smhc2.jpg">
-				<img src="./photos/yenfor.jpg">
-				<img src="./photos/mol.jpg">
-				<img src="./photos/butoh1.jpg">
-				<img src="./photos/strata.jpg">
-				<img src="./photos/shibuya.jpg">
-				<img src="./photos/hk.jpg">
-				<img src="./photos/street4.jpg">
-				<img src="./photos/asakusa.jpg">
-				<img src="./photos/meiji.jpg">
-				<img src="./photos/jinba.jpg">
-				<img src="./photos/doug.jpg">
-				<img src="./photos/cots-2.jpg">
-				<img src="./photos/malvern.jpg">
-				<img src="./photos/gate.jpg">
-				<img src="./photos/wycheroad.jpg">
-				<img src="./photos/hillhead.jpg">
-				<img src="./photos/yarrow.jpg">
-				<img src="./photos/peaks.jpg">
-		</div>
-		</div>
-		</div>
+		<div class="container">
+	  <img src="photos/shibuya.jpg"style="width:95%;">
+	  <div class="centered"><h2>Photographer and videographer based in Tokyo</h2><br><br><br><br>
+	  	<br><br><br><br>
+	  <a href=""><button class="button"><p>Get in touch</p></button></div></a>
+</div>
+	</div>
+		</div>-->
 	</div>
 		</div>
 		</div>
 		</div>
-		<br>
 		</div>
 		</div>
-    <!-- Lightbox -->
-    <div class="desktop">
-    <div class="lightbox">
-      <button class="close">&times;</button>
-      <button class="prev">&#8249;</button>
-      <img src="" alt="lightbox image" />
-      <button class="next">&#8250;</button>
-    </div>
-    <script src="script.js"></script>
   </div>
 		<footer>
 			<div class="footer">
@@ -176,7 +150,6 @@
 			</div>
 		</footer>
 <script>
-/* MOBILE MENU SCRIPT */
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
 var i;
@@ -196,6 +169,28 @@ function openNav() {
 }
 function closeNav() {
   document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<!--Slideshow script-->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 </script>
 </body>

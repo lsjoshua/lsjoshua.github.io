@@ -87,53 +87,77 @@
 		</div>
 	<!--MAIN CONTENT-->
 	<div class="content">
-		<div class="video">
-		<!--Looprider: LOVE-->
-		<div class="video-text">
-		<iframe width="560" height="316" src="https://www.youtube.com/embed/3a3xYHLh4_M?si=cpyZzvgNQfjkwi7-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, interview, edit<br>Made with <u><a target="blank" href="https://mattschley.com/">Matt Schley</a></u> (camera B, audio, lighting)</p><br>
-		<!--Tokyo Live Videos-->
-		<!--SAISA-->
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/nP_zP5N9ZCE?si=ajo700r6qtq2Ol7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, edit</p><br>
-		<!--LPRD-->
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/vOkGFEuCENg?si=8rE6LTpgrFSrATn5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, edit</p><br>
-		<!--HETH-->
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/SkvI_HYjw5s?si=ajo700r6qtq2Ol7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<p>Camera, edit</p>
+		<!--Desktop Gallery-->
+		<div class="desktop">
+		<h3>Bands & Events</h3>
+		<p>(2023-ongoing)<br>
+		Commissioned photography for bands, artists, and performers in the Tokyo area</p>
+		<div class="gallery">
+				<div class="gallery-column">
+				<img src="./photos/live/lprd2.jpg" data-index="0">
+				<img src="./photos/live/roccon.jpg" data-index="1">
+				<img src="./photos/live/cybercherry2.jpg" data-index="2">
+				<img src="./photos/live/strata.jpg" data-index="3">
+				<img src="./photos/live/lsf.jpg" data-index="4">
+				<img src="./photos/live/lprd-portrait.jpg" data-index="5">
+				<img src="./photos/live/rhakka.jpg" data-index="6">
+				<img src="./photos/live/smhc2.jpg" data-index="7">
+				<img src="./photos/live/butoh1.jpg" data-index="8">
+				<img src="./photos/live/hebikatana.jpg" data-index="9">
+				<img src="./photos/live/heth.jpg" data-index="10">
+				<img src="./photos/live/collapse.jpg" data-index="11">
+				<img src="./photos/live/ryotaro.jpg" data-index="12">
+		</div>
 		</div>
 	</div>
+		<!--Mobile Gallery-->
+		<div class="mobile">
+		<br>
+		<h3>Live Music & Events</h3>
+		<p>(2023-ongoing)<br>
+		Commissioned photography for bands, artists, and performers in the Tokyo area</p>
+		<div class="gallery">
+				<div class="gallery-column">
+				<img src="./photos/live/lprd2.jpg">
+				<img src="./photos/live/roccon.jpg">
+				<img src="./photos/live/cybercherry2.jpg">
+				<img src="./photos/live/strata.jpg">
+				<img src="./photos/live/lsf.jpg">
+				<img src="./photos/live/lprd-portrait.jpg">
+				<img src="./photos/live/rhakka.jpg">
+				<img src="./photos/live/smhc2.jpg">
+				<img src="./photos/live/butoh1.jpg">
+				<img src="./photos/live/hebikatana.jpg">
+				<img src="./photos/live/heth.jpg">
+				<img src="./photos/live/collapse.jpg">
+				<img src="./photos/live/ryotaro.jpg">
+		</div>
+		</div>
+		</div>
 	</div>
 		</div>
+		</div>
+		</div>
+		<br>
+		</div>
+		</div>
+    <!-- Lightbox -->
+    <div class="desktop">
+    <div class="lightbox">
+      <button class="close">&times;</button>
+      <button class="prev">&#8249;</button>
+      <img src="" alt="lightbox image" />
+      <button class="next">&#8250;</button>
+    </div>
+    <script src="script.js"></script>
+  </div>
 		<footer>
 			<div class="footer">
 				<p3>© <script>document.write(new Date().getFullYear())</script> Joshua Lee</p3>
 			</div>
 		</footer>
 <script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-<script>
+/* MOBILE MENU SCRIPT */
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
 var i;
@@ -155,27 +179,5 @@ function closeNav() {
   document.getElementById("myNav").style.height = "0%";
 }
 </script>
-<!--Slideshow script-->
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
-}
-</script>
-	</body>
+</body>
 </html>
