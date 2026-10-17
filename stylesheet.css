@@ -292,17 +292,22 @@ img {vertical-align: middle;}
 .slideshow-container{
   margin-top: 25px;
 }
-
+.work-wrapper{
+  justify-content: center;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
 .profile-wrapper{
-  display: flex;
+  /*display: flex;*/
   text-align: center;
   justify-content: center;
   align-items: center;
-  columns: 2;
-  column-gap: 15px;
+  /*columns: 2;
+  column-gap: 15px;*/
   margin-top: 50px;
-  max-width: 70%;
+  max-width: 35%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -313,9 +318,9 @@ img {vertical-align: middle;}
   display: inline-block;
 }
 .profile-img-wrapper img{
-  max-width: 75%;
-  outline: 2px solid black;
-  box-shadow: 5px 5px black;
+  max-width: 100%;
+  /*outline: 2px solid black;
+  box-shadow: 5px 5px black;*/
   vertical-align: center;
   margin-top: 0%;
 }
