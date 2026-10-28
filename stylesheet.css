@@ -304,10 +304,10 @@ img {vertical-align: middle;}
   text-align: center;
   justify-content: center;
   align-items: center;
-  /*columns: 2;
-  column-gap: 15px;*/
+  columns: 2;
+  column-gap: 15px;
   margin-top: 50px;
-  max-width: 35%;
+  max-width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -316,6 +316,7 @@ img {vertical-align: middle;}
 }
 .profile-text-wrapper{
   display: inline-block;
+  margin-top: 5%;
 }
 .profile-img-wrapper img{
   max-width: 100%;
@@ -756,6 +757,10 @@ iframe {
   width: 90%;
   margin: auto;
   text-align: center;
+}
+.profile-text-wrapper{
+  display: inline-block;
+  margin-top: 0%;
 }
 .slideshow-container {
   max-width: 95%;
