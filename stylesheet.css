@@ -4,15 +4,14 @@ html {
 
 
 /* Fonts */
-.grenze-<uniquifier> {
-  font-family: "Grenze", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
-.noto-serif-jp-<uniquifier> {
-  font-family: "Noto Serif JP", serif;
+.epilogue-<uniquifier> {
+  font-family: "Epilogue", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -20,24 +19,24 @@ html {
 
 /* Text */
 h1 { /* Name header (mobile) */
-  font-family: "Grenze", serif;
-  font-size: 28px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
   color: #141414;
   line-height: 1.0;
   display: inline;
   font-weight: 900;
   }
 h2 { /* Name header (desktop) */
-  font-family: "Grenze", serif;
-  font-size: 30px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
   color: #141414;
   line-height: 1.5;
   display: inline;
   font-weight: 900;
   }
 h3 { /* Blog title header */
-  font-family: "Grenze", serif;
-  font-size: 24px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
   color: #141414;
   line-height: 1;
   font-weight: 900;
@@ -45,13 +44,13 @@ h3 { /* Blog title header */
   margin-bottom: -10px;
   }
 p { /* Generic text */
-  font-family: "Noto Serif JP", serif;
-  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
   color: #141414;
   line-height: 1.5;
   }
 p2 { /* Subtitle */
-  font-family: "Noto Serif JP", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 14px;
   color: #141414;
   opacity: 0.85;
@@ -60,13 +59,14 @@ p2 { /* Subtitle */
   letter-spacing: 0.02em;
 }
 p3 { /* Footer text */
-  font-family: "Noto Serif JP", serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 14px;
   color: #141414;
+  line-height: 2.5;
 }
 p4 { /* Menu text */
-  font-family: "Grenze", serif;
-  font-size: 20px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
   color: #141414;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -121,7 +121,7 @@ body{
 .header-title-link{
   display: inline-block;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 10px;
   margin-left: 5px;
 }
 .header-page-link{
@@ -506,9 +506,9 @@ img {vertical-align: middle;}
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 22px;
   color: #141414;
-  font-family: "Grenze", serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   display: block;
@@ -524,14 +524,15 @@ img {vertical-align: middle;}
 
 .sidenav-mobile a, .dropdown-btn-mobile {
   text-decoration: none;
-  font-family: "Grenze", serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 22px;
   color: #141414;
   display: block;
   border: none;
   background: none;
   width: 100%;
+  margin: auto;
   text-align: center;
   cursor: pointer;
   outline: none;
@@ -545,7 +546,7 @@ img {vertical-align: middle;}
 }
 
 .dropdown-btn-mobile{
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.5;
   display: inline-block;
   color: #141414;
