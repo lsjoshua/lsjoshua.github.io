@@ -533,6 +533,7 @@ img {vertical-align: middle;}
   background: none;
   width: 100%;
   margin: auto;
+  margin-bottom: 10px;
   text-align: center;
   cursor: pointer;
   outline: none;
