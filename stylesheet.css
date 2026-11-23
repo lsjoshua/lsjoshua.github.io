@@ -19,7 +19,12 @@ html {
   font-weight: 400;
   font-style: italic;
 }
-
+.libre-baskerville-<uniquifier> {
+  font-family: "Libre Baskerville", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 /* Text */
 h1 { /* Name header (mobile) */
   font-family: "Manufacturing Consent", serif;
@@ -46,8 +51,8 @@ h3 { /* Blog title header */
   font-weight: 600;
   }
 p { /* Generic text */
-  font-family: "IM Fell DW Pica", serif;
-  font-size: 18px;
+  font-family: Libre Baskerville, serif;
+  font-size: 14px;
   color: #141414;
   line-height: 1.5;
   }
