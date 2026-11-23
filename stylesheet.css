@@ -4,52 +4,54 @@ html {
 
 
 /* Fonts */
-.libre-baskerville-<uniquifier> {
-  font-family: "Libre Baskerville", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.young-serif-regular {
-  font-family: "Young Serif", serif;
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+.im-fell-dw-pica-regular {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.im-fell-dw-pica-regular-italic {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 /* Text */
 h1 { /* Name header (mobile) */
-  font-family: "Young Serif", serif;
-  font-size: 24px;
+  font-family: "Manufacturing Consent", serif;
+  font-size: 30px;
   color: #141414;
   line-height: 1.0;
   display: inline;
-  font-weight: 900;
+  font-weight: 400;
   }
 h2 { /* Name header (desktop) */
-  font-family: "Young Serif", serif;
-  font-size: 20px;
+  font-family: "Manufacturing Consent", serif;
+  font-size: 45px;
   color: #141414;
-  line-height: 1.5;
-  display: inline;
-  font-weight: 900;
+  line-height: 1.0;
+  margin-bottom: 0px;
+  font-weight: 400;
   }
 h3 { /* Blog title header */
-  font-family: "Libre Baskerville", serif;
-  font-size: 20px;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 26px;
   color: #141414;
   line-height: 1;
-  font-weight: 900;
-  margin-top: 10px;
-  margin-bottom: -10px;
+  font-weight: 600;
   }
 p { /* Generic text */
-  font-family: "Libre Baskerville", serif;
-  font-size: 16px;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 18px;
   color: #141414;
   line-height: 1.5;
   }
 p2 { /* Subtitle */
-  font-family: "Libre Baskerville", serif;
+  font-family: "IM Fell DW Pica", serif;
   font-size: 14px;
   color: #141414;
   opacity: 0.85;
@@ -58,17 +60,16 @@ p2 { /* Subtitle */
   letter-spacing: 0.02em;
 }
 p3 { /* Footer text */
-  font-family: "Libre Baskerville", serif;
+  font-family: "IM Fell DW Pica", serif;
   font-size: 14px;
   color: #141414;
   line-height: 2.5;
 }
 p4 { /* Menu text */
-  font-family: "Libre Baskerville", serif;
-  font-size: 15px;
+  font-family: "IM Fell DW Pica", serif;
+  font-size: 18px;
   color: #141414;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   }
 
 /* Link text */
@@ -95,23 +96,25 @@ a:active {
 
 /* Background */
 body{
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   margin: 0;
   
 }
 
 /* Layout */
 .desktop-header{
-  float: left;
-  max-width: 300px;
+  display: block;
+  max-width: 80%;
   box-sizing: border-box;
-  top: 10px;
+  top: 0;
   justify-content: space-between;
-  position: sticky;
+  text-align: center;
+  /*position: sticky;*/
   z-index: 100; /* Keeps it above overlapping content */
-  background-color: #ffffff;
-  padding-left: 18px;
-  padding-bottom: 7px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: -17px;
+  padding-bottom: 15px;
   margin-top: 0px;
   /*border-top: 3px solid #f2771f;*/
 }
@@ -123,7 +126,7 @@ body{
 }
 .header-page-link{
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 .sns-wrapper{
   display: inline-block;
@@ -133,10 +136,10 @@ body{
 }
 .content{
   display: block;
-  width: 99%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
   padding-top: 10px;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
 }
 .content-profile{
   display: block;
@@ -145,86 +148,6 @@ body{
   margin-left: 15%;
   margin-right: 15%;
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.container img{
-  filter: contrast(70%);
-  filter: brightness(70%);
-}
-.container h2{
-  color: #ffffff;
-  text-shadow: 1px 1px 2px black;
-}
-.container p{
-  color: #ffffff;
-  text-shadow: 1px 1px 2px black;
-}
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-35%, -50%);
-}
-.button{
-  background-color: transparent;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 1px 2px black;
-  color: black;
-  outline: 3px solid white;
-  padding: 0 32px;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 2px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Noto Serif JP", sans-serif;
-  font-size: 16px;
-}
-/* Homepage slideshow */
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 60%;
-  position: relative;
-  top: 0px;
-  margin: auto;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 1px;
-  width: 1px;
-  margin: 0 2px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #ffffff;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
 /* Photo link dropdown*/
 .dropdown {
   position: relative;
@@ -250,28 +173,29 @@ img {vertical-align: middle;}
   margin-top: -40px;
   padding-bottom: 10px;
   text-align: center;
-  max-width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  max-width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .video-text{
-  max-width: 60%;
+  max-width: 100%;
   margin-top: 80px;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
-.video-text iframe {
-  width: 100%;
+.video iframe {
+  width: 35%;
   height: auto;
   aspect-ratio: 16 / 9;
-  display: block;
+  display: inline-block;
   outline: 2px solid black;
   box-shadow: 5px 5px black;
-  margin-bottom: 5px;
+  margin: 7.5px 7.5px;
   background-color: black;
 }
+
 .container-link{
   justify-content: center;
   display: inline-block;
@@ -369,10 +293,8 @@ img {vertical-align: middle;}
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  max-width: 90%;
-  margin-left: 17%;
-  margin-right: auto;
+  max-width: 100%;
+  margin-left: 2%;
 }
 .gallery img {
   max-width: 100%;
@@ -590,20 +512,18 @@ display: none;
   margin-right: 0px;
   position: sticky;
   top: 0;
-  margin-top: -10px;
   padding-top: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
   z-index: 100;
-  background-color: #ffffff;
+  background-color: #FAFAFA;
 }
 .mobile-title{
-  float: left;
-  width: 75%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
   display: block;
   margin-left: 12px;
   margin-top: 8px;
-  padding-bottom: 12px;
+  padding-bottom: 4px;
 }
 .mobile-icons{
   float: none;
@@ -615,7 +535,8 @@ display: none;
   width: 100%;
   display: block;
   text-align: center;
-  margin-top: -4px;
+  margin-top: 10px;
+  max-height: 80px;
 }
 .desktop-header{
   display: none;
@@ -676,15 +597,13 @@ iframe {
   margin-right: auto;
   padding: 2px 2px;
 }
-
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
 }
-
 .gallery-column {
   flex: 50%;
-  max-width: 98%;
+  max-width: 48.5%;
   padding: 0 2px;
 }
 .profile-img-wrapper{
@@ -697,6 +616,10 @@ iframe {
   margin-left: auto;
   margin-right: auto;
 }
+.video iframe{
+  width: 100%;
+}
+
 .profile-wrapper{
   display: inline-block;
   text-align: center;
