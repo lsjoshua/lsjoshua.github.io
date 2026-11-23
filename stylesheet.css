@@ -26,6 +26,7 @@ h1 { /* Name header (mobile) */
   font-size: 30px;
   color: #141414;
   line-height: 1.0;
+  margin-bottom: 0px;
   display: inline;
   font-weight: 400;
   }
@@ -102,7 +103,7 @@ body{
 }
 
 /* Layout */
-.desktop-header{
+.header{
   display: block;
   max-width: 80%;
   box-sizing: border-box;
@@ -471,19 +472,24 @@ display: none;
   text-align: center;*/
 }
 /* MOBILE MENU */
-.mobile-header{
+.header{
   display: block;
   position: sticky;
   top: 0;
-  width: 98%;
   text-align: center;
-  margin-left: 1%;
-  margin-right: 1%;
+  max-width: 99%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   margin-top: 8px;
   padding-top: 10px;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   z-index: 100;
   background-color: #FAFAFA;
+}
+.header-page-link{
+  display: inline-block;
+  margin: 0 10px;
 }
 .mobile-icons{
   float: none;
@@ -497,9 +503,6 @@ display: none;
   text-align: center;
   margin-top: 10px;
   max-height: 80px;
-}
-.desktop-header{
-  display: none;
 }
 .dropdown:hover .dropdown-content {
   display: block;
