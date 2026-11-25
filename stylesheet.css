@@ -4,14 +4,52 @@ html {
 
 
 /* Fonts */
-.archivo-black-regular {
-  font-family: "Archivo Black", sans-serif;
+.playfair-display-sc-regular {
+  font-family: "Playfair Display SC", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.epilogue-<uniquifier> {
-  font-family: "Epilogue", sans-serif;
+.playfair-display-sc-bold {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-sc-black {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.playfair-display-sc-regular-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.playfair-display-sc-bold-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.playfair-display-sc-black-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.libre-baskerville-<uniquifier> {
+  font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -286,14 +324,14 @@ img {vertical-align: middle;}
 }
 .profile-text-wrapper{
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 20%;
 }
 .profile-img-wrapper img{
   max-width: 100%;
   /*outline: 2px solid black;
   box-shadow: 5px 5px black;*/
   vertical-align: center;
-  margin-top: 0%;
+  margin-top: 15%;
 }
 
 .blog-wrapper{
