@@ -525,8 +525,8 @@ img {vertical-align: middle;}
 
 .overlay .closebtn {
   position: absolute;
-  top: -5px;
-  right: 19px;
+  top: -7px;
+  right: 10px;
   font-size: 38px;
 }
 
@@ -573,6 +573,7 @@ img {vertical-align: middle;}
 }
 .menu-mobile-btn{
   color: #141414;
+  margin-right: -30px;
 }
 
 .dropdown-container-mobile-link{
@@ -607,7 +608,7 @@ display: none;
   top: 0;
   margin-top: -10px;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   z-index: 100;
   background-color: #ffffff;
 }
