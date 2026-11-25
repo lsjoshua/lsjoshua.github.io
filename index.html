@@ -4,127 +4,173 @@
 		<!--Page metadata-->
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Josh Lee | Photo & Video</title>
+		<title>Joshua Lee</title>
 		<link rel="icon" type="image/x-icon" src="favicon.ico?">
 		<link rel="stylesheet" href="stylesheet.css">
 		<!--Google Fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Manufacturing+Consent&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	</head>
 	<body>
-	<!--HEADER MENU-->
-	<div class="header">
-		<a class="desktop" href="./"><h2>JOSH LEE</h2></a>
-		<a class="mobile" href="./"><h1>JOSH LEE</h1></a>
-		<br>
-		<!--Menu items-->
-		<p4>
+	<!--DESKTOP MENU-->
+	<div class="desktop-header">
+		<div class="header-left-wrapper">
+		<div class="header-title-link">
+		<a href="./"><h2>Josh Lee</h2>&emsp;</a>
+		</div>
+		</div>
+		<!--Links-->
+		<div class="sns-wrapper">
 		<div class="header-page-link">
-		<a href="./">PHOTO</a>
+		<p4><div class="dropdown">Works</p4>
+		<div class="dropdown-content">
+		<a href="./photo-onland">On Land</a><br>
+		<a href="./photo-live">Tokyo Heavy Rocks</a><br>
+  	<a href="./video">Video</a><br>
+		</div></div></div></p4>
+		<div class="header-page-link">
+		<p4><a href="./about">About</a></p4>
 		</div>
 		<div class="header-page-link">
-		<a href="./video">VIDEO</a>
+		<p4><a href="./blog">Blog</a></p4>
 		</div>
-		<div class="header-page-link">
-		<a href="./contact">CONTACT</a>
+		&nbsp;&nbsp;
+			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
+			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
+			<a href="https://pale-star.bandcamp.com/" target="_blank"><img class="sns-icon" src="./icons/bandcamp.png"></a>
+	</div>
+</div>
+	<!--MOBILE MENU-->
+	<div class="mobile-header">
+			<div class="mobile-menu">
+			<div id="myNav" class="overlay">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<div class="overlay-content">
+  			<p>
+  			<a href="./photo-onland">On Land</a>
+  			<a href="./photo-live">Tokyo Heavy Rocks</a>
+  			<a href="./video">Video</a>
+  			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="./about">About</a>
+				<a href="./blog">Blog</a>
+  			</p>
+  		
+  			<p>
+  			<a href="mailto:contact@joshlee.photo">contact@joshlee.photo</a>
+  			</p>
+  			<!--SNS icons-->
+  			<div class="mobile-icons">
+			<a href="https://www.instagram.com/_joshslee" target="_blank"><img class="sns-icon" src="./icons/instagram.png"></a>
+			<a href="https://www.youtube.com/channel/UCqsmBP0fMYYbE0Q3mJUrhrQ" target="_blank"><img class="sns-icon" src="./icons/youtube.png"></a>
 		</div>
-		<br>
-		</div></p4></div>
+	</div>
+	</div>
+			<!--Title-->
+			<div class="mobile-title">
+			<a class="noline" href="./"><h1>Josh Lee<br></h1></a></div>
+			<div class ="menu-mobile">
+			<span class="menu-mobile-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		</div>
+		</div>
+		</div>
 	<!--MAIN CONTENT-->
 	<div class="content">
-		<!--Desktop gallery-->
-		<div class="desktop">
-			<div class="gallery">
-				<div class="gallery-row">
-					<div class="gallery-column">
-							<img src="./photos/cybercherry2026.jpg" data-index="0">
-							<img src="./photos/yenfor1.jpg" data-index="1">
-							<img src="./photos/rhakka.jpg" loading="lazy" data-index="2">
-							<img src="./photos/collapse2.jpg" loading="lazy" data-index="3">
-							<img src="./photos/collapse.jpg" loading="lazy" data-index="4">
-							<img src="./photos/tw1.png" loading="lazy" data-index="5">
-							<img src="./photos/cots-2.jpg" loading="lazy" data-index="6">
-						</div>
-						<div class="gallery-column">
-							<img src="./photos/geji1.jpg" data-index="7">
-							<img src="./photos/conan.jpg" data-index="8">
-							<img src="./photos/strata.jpg" loading="lazy" data-index="9">
-							<img src="./photos/butoh.jpg" loading="lazy" data-index="10">
-							<img src="./photos/yenfor2.jpg" loading="lazy" data-index="11">
-							<img src="./photos/cots-3.jpg" loading="lazy" data-index="12">
-							<img src="./photos/onland.png" loading="lazy" data-index="13">
-						</div>
-						<div class="gallery-column">
-							<img src="./photos/lsf.jpg" data-index="14">
-							<img src="./photos/lprd1.jpg" data-index="15">
-							<img src="./photos/mol.jpg" loading="lazy" data-index="16">
-							<img src="./photos/mu-24.jpg" loading="lazy" data-index="17">
-							<img src="./photos/ryotaro.jpg" loading="lazy" data-index="18">
-							<img src="./photos/hk.jpg" loading="lazy" data-index="19">
-							<img src="./photos/tw2.png" loading="lazy" data-index="20">
-							<img src="./photos/doug.jpg" loading="lazy" data-index="21">
-							<img src="./photos/peaks2.jpg" loading="lazy" data-index="22">						
-						</div>
-		</div>
+	  <img class="homepage-photo desktop" src="photos/onland/peaks2.jpg">
+	  <img class="homepage-photo mobile" src="photos/onland/wycheroad-b.jpg">
+	  <div class="centre">
+	  <p><i>Photographer and musician based in Tokyo</i></p><br><br>
 	</div>
-	</div>
-			<!--Mobile Gallery-->
-		<div class="mobile">
-		<div class="gallery">
-			<div class="gallery-row">
-					<div class="gallery-column">
-							<img src="./photos/cybercherry2026.jpg">
-							<img src="./photos/yenfor1.jpg">
-							<img src="./photos/rhakka.jpg" loading="lazy">
-							<img src="./photos/collapse2.jpg" loading="lazy">
-							<img src="./photos/collapse.jpg" loading="lazy">
-							<img src="./photos/yenfor2.jpg" loading="lazy">
-							<img src="./photos/lsf.jpg" loading="lazy">
-							<img src="./photos/lprd1.jpg" loading="lazy">
-							<img src="./photos/hk.jpg" loading="lazy">
-							<img src="./photos/tw1.png" loading="lazy">
-							<img src="./photos/tw2.png" loading="lazy">
-							
-						</div>
-						<div class="gallery-column">
-							<img src="./photos/geji1.jpg">
-							<img src="./photos/conan.jpg">
-							<img src="./photos/strata.jpg">
-							<img src="./photos/butoh.jpg" loading="lazy">
-							<img src="./photos/mol.jpg" loading="lazy">
-							<img src="./photos/mu-24.jpg" loading="lazy">
-							<img src="./photos/ryotaro.jpg" loading="lazy">					
-							<img src="./photos/cots-3.jpg" loading="lazy">
-							<img src="./photos/onland.png" loading="lazy">
-							<img src="./photos/doug.jpg" loading="lazy">
-							<img src="./photos/peaks2.jpg" loading="lazy">
-							<img src="./photos/cots-2.jpg" loading="lazy">
-						</div>
-		</div>
-	</div>
-		</div>
-	</div>
-		</div>
-		</div>
-		</div>
-		<br>
-		</div>
-		</div>
-    <!-- Desktop lightbox -->
-    <div class="desktop">
-    <div class="lightbox">
-      <button class="close">&times;</button>
-      <button class="prev">&#8249;</button>
-      <img src="" alt="lightbox image" />
-      <button class="next">&#8250;</button>
-    <script src="script.js"></script>
-  </div>
 </div>
+	</div>
+		<!--
+			SLIDESHOW
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/live/lprd1.jpg" style="width:100%">
+				<img class="mobile" src="./photos/live/cybercherry2026.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/onland/cots-2.jpg" style="width:100%">
+				<img class="mobile" src="./photos/onland/wycheroad-b.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/travel/hk.jpg" style="width:100%">
+				<img class="mobile" src="./photos/live/strata.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/live/rhakka.jpg" style="width:100%">
+				<img class="mobile" src="./photos/travel/tw1.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img class="desktop" src="./photos/onland/peaks.jpg" style="width:100%">
+				<img class="mobile" src="./photos/travel/hakone.jpg" style="width:100%">
+			</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+	</div>-->
+		</div></div>
+	</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+  </div>
 		<footer>
 			<div class="footer">
-				<p3>© <script>document.write(new Date().getFullYear())</script> Josh Lee</p3>
+				<p3>© <script>document.write(new Date().getFullYear())</script> Joshua Lee</p3>
 			</div>
 		</footer>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn-mobile");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<!--Slideshow script-->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
 </body>
 </html>
