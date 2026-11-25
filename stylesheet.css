@@ -774,6 +774,7 @@ iframe {
 }
 .homepage-photo{
   margin: auto;
+  padding-top: 0px;
   width: 90%;
 }
 .slideshow-container {
