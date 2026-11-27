@@ -131,9 +131,6 @@ a:active {
 .noline a{
   text-decoration: none;
 }
-.dropdown-content a:hover {
-  font-style: italic;
-}
 
 /* Background */
 body{
